@@ -22,9 +22,10 @@ main {
 .logo {
     width: 210px;
     height: 100px;
-    background-image: url(https://raw.githubusercontent.com/pauloandreoliv/Projeto-DSWII/main/imagem_2023-11-17_191035688.png);
+    background-image: url(https://raw.githubusercontent.com/pauloandreoliv/Projeto-DSWII/main/assets/img/logo.png);
     background-size: cover;
     transition: 0.25s;
+    cursor: pointer;
 }
 
 .logo:hover {
@@ -71,11 +72,11 @@ button.verde:hover {
 }
 
 button.vermelho {
-    background: #84AF6A;
+    background: #AF6A6A;
 }
 
 button.vermelho:hover {
-    background-color: #6b8f54;
+    background-color: #734a4a;
 }
 
 a {
@@ -89,13 +90,87 @@ a#esqueceu {
     padding: 5px;
 }
 
+a#voltar {
+    font-size: 13px;
+    float: left;
+    margin-left: 140px;
+    padding: 5px;
+}
+
 a#possuiconta{
     font-size: 13px;
     float: left;
-    margin-left: 30px;
+    margin-left: 25px;
+    padding: 5px;
 }
 
 .login-container article {
     margin-left: 70px;
     margin-top: 20px;
+}
+
+section.principal button{
+    color: black;
+    width: 350px;
+    height: 60px;
+    margin-bottom: 15px;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open sans', sans-serif;
+    border-radius: 2px;
+}
+
+section.principal button:hover{
+    background-color: #84AF6A;
+    color: white;
+}
+
+section.principal button span {
+    padding-left: 10px;
+}
+
+button#sair, button#voltar {
+    margin-bottom: 10px;
+    margin-left: 30%;
+}
+
+.nomedalista {
+    color: black;
+    background-color: #f0f0f0;
+    width: 330px;
+    height: 60px;
+    line-height: 4.5;
+    margin-bottom: 15px;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open sans', sans-serif;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+table {
+ width: 350px;
+ border-collapse: collapse;
+ margin-bottom: 20px;
+}
+
+table, th, td {
+ padding: 8px;
+ text-align: center;
+}
+
+button#editar {
+    border: none;
+    background-color: transparent;
+    height: fit-content;
+    width: fit-content;
+}
+
+button#editar:hover {
+    font-weight: bold;
+    color: black;
 }
