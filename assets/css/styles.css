@@ -42,7 +42,7 @@ label {
     font-weight: 200;
 }
 
-input {
+input, textarea {
     width: 300px;
     height: 30px;
     margin: 10px 0px 20px 0px;
@@ -131,7 +131,7 @@ section.principal button span {
     padding-left: 10px;
 }
 
-button#sair, button#voltar {
+button#sair, button#voltar, button#criar, button#enviar {
     margin-bottom: 10px;
     margin-left: 30%;
 }
@@ -160,7 +160,7 @@ table {
 
 table, th, td {
  padding: 8px;
- text-align: center;
+ text-align: left;
 }
 
 button#editar {
@@ -173,4 +173,42 @@ button#editar {
 button#editar:hover {
     font-weight: bold;
     color: black;
+}
+
+.principal input#nomedalista, input#precodoproduto, input#nomedoproduto, input#email{
+    width: 330px;
+}
+
+section.botoes_add {
+  width: fit-content;
+}
+
+section.botoes_add form button {
+    background-color: transparent;
+    width: fit-content;
+    height: fit-content;
+}
+
+section.botoes_add form button:hover {
+    background-color: transparent;
+    color: black;
+}
+
+button#mais {
+    color: #84AF6A;
+}
+
+button#menos {
+    color: #AF6A6A;
+}
+
+td {
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+textarea {
+    width: 330px;
+    height: 200px;
+    border-radius: 2px;
 }
