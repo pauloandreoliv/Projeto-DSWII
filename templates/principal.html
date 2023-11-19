@@ -17,13 +17,13 @@
         <div class="login-container">
             <h2>Principal</h2>
             <section class="principal">
-                <button id="verminhaslistas" type="submit"><i class="fa-solid fa-bars"></i><span>Ver minhas listas</span></button>
-                <button id="criarnovalista" type="submit"><i class="fa-solid fa-add"></i><span>Criar nova lista</span></button>
-                <button id="verprodutos" type="submit"><i class="fa-solid fa-basket-shopping"></i><span>Ver produtos</span></button>
-                <button id="cadastrarproduto" type="submit"><i class="fa-solid fa-add"></i><span>Cadastrar produto</span></button>
-                <button id="verdicas" type="submit"><i class="fa-solid fa-star"></i><span>Ver dicas</span></button>
-                <button id="verpromocoes" type="submit"><i class="fa-solid fa-percent"></i><span>Ver promoções</span></button>
-                <button id="obtersuporte" type="submit"><i class="fa-solid fa-headset"></i><span>Obter suporte</span></button>
+                <a href="{{ url_for('minhaslistas') }}"><button><i class="fa-solid fa-bars"></i><span>Ver minhas listas</span></button></a>
+                <a href="{{ url_for('criarlista') }}"><button><i class="fa-solid fa-add"></i><span>Criar nova lista</span></button></a>
+                <a href="{{ url_for('verprodutos') }}"><button><i class="fa-solid fa-basket-shopping"></i><span>Ver produtos</span></button></a>
+                <a href="{{ url_for('cadastrarproduto') }}"><button><i class="fa-solid fa-add"></i><span>Cadastrar produto</span></button></a>
+                <a href="{{ url_for('verdicas') }}"><button><i class="fa-solid fa-star"></i><span>Ver dicas</span></button></a>
+                <a href="{{ url_for('verpromocoes') }}"><button><i class="fa-solid fa-percent"></i><span>Ver promoções</span></button></a>
+                <a href="{{ url_for('obtersuporte') }}"><button><i class="fa-solid fa-headset"></i><span>Obter suporte</span></button></a>
             </section>
             <button class="vermelho" id="sair" name="sair" type="submit">Sair</button>
         </div>

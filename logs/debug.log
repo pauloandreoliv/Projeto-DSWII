@@ -4,4 +4,3 @@
 2023-11-18 21:27:59,488 - INFO - 127.0.0.1 - - [18/Nov/2023 21:27:59] "GET /obtersuporte HTTP/1.1" 200 -
 2023-11-18 21:28:03,175 - INFO - 127.0.0.1 - - [18/Nov/2023 21:28:03] "POST /obtersuporte HTTP/1.1" 200 -
 2023-11-18 21:28:12,166 - INFO - SUCESSO no envio de suporte por e-mail: pauloandreolivs@gmail.com 
-2023-11-18 21:28:12,186 - INFO - 127.0.0.1 - - [18/Nov/2023 21:28:12] "POST /obtersuporte HTTP/1.1" 200 -
