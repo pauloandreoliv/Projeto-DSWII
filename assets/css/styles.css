@@ -17,6 +17,15 @@ header {
 main {
     display: flex;
     justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+
+main h6 {
+    text-align: center;
+    width: 350px;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
 .logo {
@@ -211,4 +220,13 @@ textarea {
     width: 330px;
     height: 200px;
     border-radius: 2px;
+}
+
+button#enviar {
+    width: 185px;
+    height: 40px;
+    text-align: center;
+    padding-left: 0px;
+    color: white;
+    border-radius: 5px;
 }

@@ -14,13 +14,16 @@
         <div class="logo"></div>
     </header>
     <main>
+        <h6>{{ aviso }}</h6>
         <div class="login-container">
             <section class="principal">
                 <div class="nomedalista" type="submit"><i class="fa-solid fa-headset"></i><span> Obter suporte</span></div>
+                <form method="POST">
                 <input placeholder="E-mail válido" id="email" name="email" type="email" required>
-                <textarea placeholder="Seu pedido, sugestão ou questionamento"></textarea>
+                <textarea placeholder="Seu pedido, sugestão ou questionamento" id="texto" name="texto"></textarea>
+                <button class="verde" id="enviar" name="enviar" type="submit">Enviar</button>
+            </form>
             </section>
-            <button class="verde" id="enviar" name="enviar" type="submit">Enviar</button>
             <button class="vermelho" id="voltar" name="voltar" type="submit">Voltar</button>
         </div>
     </main>
