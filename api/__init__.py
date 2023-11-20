@@ -21,13 +21,17 @@ user_ref = db.collection('user')
 @app.route('/', methods=['GET']) # sem funcionar
 def root():
     try:
-        user_id = request.args.get('id')    
-        if user_id:
-            todo = user_ref.document(user_id).get()
-            return jsonify(todo.to_dict()), 200
+        id = request.args.get('id')    
+        if id:
+            user_id = user_ref.document(str(id)).get()
+            if user_id.exists:
+                return jsonify(user_id.to_dict()), 200
+            else:
+                return "Usuário não encontrado", 404
         else:
-            all_todos = [doc.to_dict() for doc in user_ref.stream()]
-            return jsonify(all_todos), 200
+            all_id = [doc.to_dict() for doc in user_ref.stream()]
+            return jsonify(all_id), 200
+        
     except Exception as e:
         return f"An Error Occured: {e}"
 
@@ -36,6 +40,7 @@ def root():
 @app.route('/', methods=['POST']) #funcionando
 def create():
     try:
+        id = request.json['id']
         user_ref.document(str(id)).set(request.json)
         return jsonify({"success": True}), 200
     except Exception as e:
