@@ -188,27 +188,27 @@ button#editar:hover {
     width: 330px;
 }
 
-section.botoes_add {
+.botoes_add {
   width: fit-content;
 }
 
-section.botoes_add form button {
-    background-color: transparent;
-    width: fit-content;
-    height: fit-content;
+.botoes_add button {
+    background-color: transparent!important;
+    width: fit-content!important;
+    height: fit-content!important;
 }
 
-section.botoes_add form button:hover {
-    background-color: transparent;
-    color: black;
+.botoes_add button:hover {
+    background-color: transparent!important;
+    color: black!important;
 }
 
-button#mais {
-    color: #84AF6A;
+button.mais {
+    color: #84AF6A!important;
 }
 
-button#menos {
-    color: #AF6A6A;
+button.menos {
+    color: #AF6A6A!important;
 }
 
 td {

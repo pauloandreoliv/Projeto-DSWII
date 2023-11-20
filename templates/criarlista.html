@@ -27,25 +27,30 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>2</td>
+                        <tr id="iddoproduto">
+                            <td class="qtd" id="iddoproduto_qtd">2</td>
                             <td>Feijão</td>
                             <td>8,90</td>
                             <td>
-                                <section class="botoes_add">
-                                    <form>
-                                        <button id="mais" type="submit"><i class="fa-solid fa-plus"></i></button>
-                                        <button id="menos" type="submit"><i class="fa-solid fa-minus"></i></button>
-                                    </form>
-                                <section>
+                                <div class="botoes_add">
+                                    <button class="mais" onclick="alterarQuantidade('iddoproduto_qtd', 1)">+</button>
+                                    <button class="menos" onclick="alterarQuantidade('iddoproduto_qtd', -1)">-</button>
+                                </div>
                             </td>
                         </tr>
                     </tbody>
                 </table>
             </section>
             <button class="verde" id="criar" name="criar" type="submit">Criar</button>
-            <a href="{{ url_for('principal') }}"><button class="vermelho" id="voltar" name="voltar" type="submit">Voltar</button></a>
+            <a href="{{ url_for('principal') }}"><button class="vermelho" id="voltar" name="voltar">Voltar</button></a>
         </div>
     </main>
+    <script>
+        function alterarQuantidade(idQtd, quantidade) {
+            var quantidadeElement = document.getElementById(idQtd);
+            var quantidadeAtual = parseInt(quantidadeElement.innerText);  
+            quantidadeElement.innerText = Math.max(quantidadeAtual + quantidade, 0);
+        }
+    </script>    
 </body>
 </html>
