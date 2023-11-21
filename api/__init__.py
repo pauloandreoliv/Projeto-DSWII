@@ -18,16 +18,16 @@ user_ref = db.collection('user')
 
 
 ####### requisições ##################
-@app.route('/', methods=['GET']) # sem funcionar
+
+## ex: http://127.0.0.1:5000/user?id="id"
+
+@app.route('/user', methods=['GET']) # funcionando 
 def root():
     try:
         id = request.args.get('id')    
         if id:
-            user_id = user_ref.document(str(id)).get()
-            if user_id.exists:
-                return jsonify(user_id.to_dict()), 200
-            else:
-                return "Usuário não encontrado", 404
+            user_id = user_ref.document(id).get()
+            return jsonify(user_id.to_dict()), 200
         else:
             all_id = [doc.to_dict() for doc in user_ref.stream()]
             return jsonify(all_id), 200
@@ -37,7 +37,7 @@ def root():
 
 
 
-@app.route('/', methods=['POST']) #funcionando
+@app.route('/user', methods=['POST']) #funcionando
 def create():
     try:
         id = request.json['id']
@@ -48,25 +48,22 @@ def create():
     
 
 
-@app.route('/', methods=['GET', 'DELETE']) # sem funcionar
+@app.route('/user', methods=['GET', 'DELETE']) # funcionando 
 def delete():
     try:
-        user_id = request.args.get(id)
-        user_ref.document(user_id).delete()
+        id = request.args.get('id')
+        user_ref.document(id).delete()
         return jsonify({"success": True}), 200
     except Exception as e:
         return f"An Error Occured: {e}"
-    
 
 
 
-
-
-@app.route('/', methods=['POST', 'PUT']) # sem funcionar
+@app.route('/user', methods=['POST', 'PUT']) # funcionando mas obs**
 def update():
     try:
         id = request.json['id']
-        user_ref.document(id).update(request.json)
+        user_ref.document(str(id)).update(request.json)
         return jsonify({"success": True}), 200
     except Exception as e:
         return f"An Error Occured: {e}"
