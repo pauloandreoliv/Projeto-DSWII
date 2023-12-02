@@ -1,0 +1,239 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2023 19:48:41] "GET /user?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2023 21:21:38] "GET /user?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2023 21:38:54] "GET /user?id=2 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2023 21:41:03] "GET /user?id=2 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug:127.0.0.1 - - [01/Dec/2023 21:46:49] "GET /user?id=2 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2023 13:59:52] "GET /user?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2023 14:00:36] "GET /user?id=44 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2023 16:35:02] "GET /user?id=44 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+ERROR:root:An Error Occurred: name 'l' is not defined
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2023 16:38:07] "[35m[1mGET /user?id=2 HTTP/1.1[0m" 500 -
+ERROR:root:An Error Occurred: name 'l' is not defined
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2023 16:38:25] "[35m[1mGET /user?id=21 HTTP/1.1[0m" 500 -
+ERROR:root:An Error Occurred: name 'l' is not defined
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2023 16:38:49] "[35m[1mGET /user?id=2 HTTP/1.1[0m" 500 -
+ERROR:root:An Error Occurred: name 'l' is not defined
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2023 16:39:29] "[35m[1mGET /user?id=2 HTTP/1.1[0m" 500 -
+ERROR:root:An Error Occurred: name 'l' is not defined
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2023 16:42:03] "[35m[1mGET /user?id=2 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2023 16:42:34] "GET /user?id= HTTP/1.1" 200 -
+ERROR:root:An Error Occurred: name 'l' is not defined
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2023 16:42:44] "[35m[1mGET /user?id=2 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+ERROR:root:An Error Occurred: name 'logg' is not defined
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2023 16:43:09] "[35m[1mGET /user?id=2 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2023 16:44:33] "GET /user?id=2 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2023 16:50:03] "[35m[1mGET /user?id=2 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257 
+WARNING:root:Esta é uma mensagem de aviso
+ERROR:root:Esta é uma mensagem de erro
+CRITICAL:root:Esta é uma mensagem crítica
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2023 16:53:57] "GET /user?id=2 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+ERROR:root:An Error Occurred: 400 Document name "projects/app-mercado-4bae7/databases/(default)/documents/user/" has invalid trailing "/".
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2023 16:55:09] "[35m[1mDELETE /user?id= HTTP/1.1[0m" 500 -
+WARNING:root:Esta é uma mensagem de aviso
+ERROR:root:Esta é uma mensagem de erro
+CRITICAL:root:Esta é uma mensagem crítica
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2023 16:55:16] "GET /user?id=2 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+WARNING:root:Esta é uma mensagem de aviso
+ERROR:root:Esta é uma mensagem de erro
+CRITICAL:root:Esta é uma mensagem crítica
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2023 20:01:25] "GET /user?id=2 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+WARNING:root:    
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2023 20:04:21] "GET /user?id=2 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+WARNING:root:dados do id retornado 
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2023 20:05:32] "GET /user?id=2 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2023 20:06:09] "GET /user?id=2 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2023 20:09:00] "[33mPOST / HTTP/1.1[0m" 404 -
+WARNING:root:Dados criado
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2023 20:09:42] "POST /user HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+WARNING:root:returned id = 2 data
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2023 20:16:50] "GET /user?id=2 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-183-257
+INFO:werkzeug: * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
