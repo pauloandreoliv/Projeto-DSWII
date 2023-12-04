@@ -219,3 +219,9 @@
 2023-12-03 21:23:33,840 - INFO -  * Debugger PIN: 106-183-257
 2023-12-03 21:23:39,974 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
 2023-12-03 21:23:40,073 - INFO -  * Restarting with stat
+2023-12-03 21:23:41,321 - WARNING -  * Debugger is active!
+2023-12-03 21:23:41,334 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 21:23:50,556 - INFO - 127.0.0.1 - - [03/Dec/2023 21:23:50] "[33mPOST /lista/teste1/produto HTTP/1.1[0m" 404 -
+2023-12-03 21:24:05,793 - INFO - 127.0.0.1 - - [03/Dec/2023 21:24:05] "POST /criarlista HTTP/1.1" 200 -
+2023-12-03 21:24:10,371 - INFO - 127.0.0.1 - - [03/Dec/2023 21:24:10] "POST /lista/teste1/produto HTTP/1.1" 200 -
+2023-12-03 21:24:19,744 - INFO - 127.0.0.1 - - [03/Dec/2023 21:24:19] "POST /lista/teste1/produto HTTP/1.1" 200 -
