@@ -4,3 +4,218 @@
 2023-11-18 21:27:59,488 - INFO - 127.0.0.1 - - [18/Nov/2023 21:27:59] "GET /obtersuporte HTTP/1.1" 200 -
 2023-11-18 21:28:03,175 - INFO - 127.0.0.1 - - [18/Nov/2023 21:28:03] "POST /obtersuporte HTTP/1.1" 200 -
 2023-11-18 21:28:12,166 - INFO - SUCESSO no envio de suporte por e-mail: pauloandreolivs@gmail.com 
+2023-12-03 17:01:26,884 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 17:01:26,885 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-03 17:01:26,890 - INFO -  * Restarting with stat
+2023-12-03 17:01:27,839 - WARNING -  * Debugger is active!
+2023-12-03 17:01:27,870 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 17:02:52,614 - INFO - 127.0.0.1 - - [03/Dec/2023 17:02:52] "[31m[1mGET /criarlista HTTP/1.1[0m" 405 -
+2023-12-03 17:03:31,146 - INFO - 127.0.0.1 - - [03/Dec/2023 17:03:31] "[31m[1mGET /criarlista HTTP/1.1[0m" 405 -
+2023-12-03 17:05:29,400 - INFO - 127.0.0.1 - - [03/Dec/2023 17:05:29] "[31m[1mGET /criarlista HTTP/1.1[0m" 405 -
+2023-12-03 17:07:53,368 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 17:07:53,479 - INFO -  * Restarting with stat
+2023-12-03 17:07:54,915 - WARNING -  * Debugger is active!
+2023-12-03 17:07:54,928 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 17:08:28,541 - INFO - 127.0.0.1 - - [03/Dec/2023 17:08:28] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-12-03 17:08:29,083 - INFO - 127.0.0.1 - - [03/Dec/2023 17:08:29] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-12-03 17:08:29,112 - INFO - 127.0.0.1 - - [03/Dec/2023 17:08:29] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-12-03 17:08:29,432 - INFO - 127.0.0.1 - - [03/Dec/2023 17:08:29] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-12-03 17:08:29,533 - INFO - 127.0.0.1 - - [03/Dec/2023 17:08:29] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-03 17:08:45,483 - INFO - 127.0.0.1 - - [03/Dec/2023 17:08:45] "[31m[1mGET /criarlista HTTP/1.1[0m" 405 -
+2023-12-03 17:08:53,259 - INFO - 127.0.0.1 - - [03/Dec/2023 17:08:53] "[31m[1mGET /criarlista HTTP/1.1[0m" 405 -
+2023-12-03 17:09:21,696 - INFO - 127.0.0.1 - - [03/Dec/2023 17:09:21] "[35m[1mPOST /criarlista HTTP/1.1[0m" 500 -
+2023-12-03 17:09:24,456 - INFO - 127.0.0.1 - - [03/Dec/2023 17:09:24] "[35m[1mPOST /criarlista HTTP/1.1[0m" 500 -
+2023-12-03 17:09:43,801 - INFO - 127.0.0.1 - - [03/Dec/2023 17:09:43] "[35m[1mPOST /criarlista HTTP/1.1[0m" 500 -
+2023-12-03 17:11:26,682 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 17:11:26,766 - INFO -  * Restarting with stat
+2023-12-03 17:11:28,062 - WARNING -  * Debugger is active!
+2023-12-03 17:11:28,079 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 17:11:30,184 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 17:11:30,276 - INFO -  * Restarting with stat
+2023-12-03 17:11:31,541 - WARNING -  * Debugger is active!
+2023-12-03 17:11:31,552 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 17:11:32,612 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 17:11:32,692 - INFO -  * Restarting with stat
+2023-12-03 17:11:33,763 - WARNING -  * Debugger is active!
+2023-12-03 17:11:33,774 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 17:12:34,981 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 17:12:34,982 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-03 17:12:34,987 - INFO -  * Restarting with stat
+2023-12-03 17:12:35,956 - WARNING -  * Debugger is active!
+2023-12-03 17:12:35,967 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 17:12:40,159 - INFO - 127.0.0.1 - - [03/Dec/2023 17:12:40] "POST /criarlista HTTP/1.1" 200 -
+2023-12-03 17:13:04,585 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\Lista.py', reloading
+2023-12-03 17:13:04,667 - INFO -  * Restarting with stat
+2023-12-03 17:13:06,147 - WARNING -  * Debugger is active!
+2023-12-03 17:13:06,168 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 17:13:21,526 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 17:13:21,610 - INFO -  * Restarting with stat
+2023-12-03 17:13:22,751 - WARNING -  * Debugger is active!
+2023-12-03 17:13:22,763 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 17:13:23,817 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 17:13:23,899 - INFO -  * Restarting with stat
+2023-12-03 17:13:24,884 - WARNING -  * Debugger is active!
+2023-12-03 17:13:24,895 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 17:13:42,257 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 17:13:42,342 - INFO -  * Restarting with stat
+2023-12-03 17:13:43,432 - WARNING -  * Debugger is active!
+2023-12-03 17:13:43,443 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 17:13:49,617 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 17:13:49,694 - INFO -  * Restarting with stat
+2023-12-03 17:13:50,901 - WARNING -  * Debugger is active!
+2023-12-03 17:13:50,916 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 17:14:00,168 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 17:14:00,258 - INFO -  * Restarting with stat
+2023-12-03 17:14:01,526 - WARNING -  * Debugger is active!
+2023-12-03 17:14:01,538 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 17:14:12,773 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 17:14:12,849 - INFO -  * Restarting with stat
+2023-12-03 17:14:13,830 - WARNING -  * Debugger is active!
+2023-12-03 17:14:13,842 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 17:14:23,036 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 17:14:23,113 - INFO -  * Restarting with stat
+2023-12-03 17:14:24,122 - WARNING -  * Debugger is active!
+2023-12-03 17:14:24,133 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 17:16:01,844 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 17:16:01,929 - INFO -  * Restarting with stat
+2023-12-03 17:16:03,033 - WARNING -  * Debugger is active!
+2023-12-03 17:16:03,043 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 17:16:09,194 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\Lista.py', reloading
+2023-12-03 17:16:09,269 - INFO -  * Restarting with stat
+2023-12-03 17:16:11,648 - WARNING -  * Debugger is active!
+2023-12-03 17:16:11,662 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 17:17:10,842 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 17:17:10,980 - INFO -  * Restarting with stat
+2023-12-03 17:17:12,096 - WARNING -  * Debugger is active!
+2023-12-03 17:17:12,108 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 17:17:24,390 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 17:17:24,473 - INFO -  * Restarting with stat
+2023-12-03 17:17:25,798 - WARNING -  * Debugger is active!
+2023-12-03 17:17:25,813 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 17:17:26,943 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 17:17:27,020 - INFO -  * Restarting with stat
+2023-12-03 17:17:28,475 - WARNING -  * Debugger is active!
+2023-12-03 17:17:28,484 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 17:17:30,559 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 17:17:30,676 - INFO -  * Restarting with stat
+2023-12-03 17:17:32,257 - WARNING -  * Debugger is active!
+2023-12-03 17:17:32,269 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 17:17:47,580 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 17:17:47,660 - INFO -  * Restarting with stat
+2023-12-03 17:17:48,877 - WARNING -  * Debugger is active!
+2023-12-03 17:17:48,899 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 17:18:01,217 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 17:18:01,310 - INFO -  * Restarting with stat
+2023-12-03 17:18:02,636 - WARNING -  * Debugger is active!
+2023-12-03 17:18:02,654 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 17:18:17,078 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 17:18:17,190 - INFO -  * Restarting with stat
+2023-12-03 17:18:18,593 - WARNING -  * Debugger is active!
+2023-12-03 17:18:18,609 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 17:18:24,794 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 17:18:24,880 - INFO -  * Restarting with stat
+2023-12-03 17:56:00,077 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 17:56:00,077 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-03 17:56:00,082 - INFO -  * Restarting with stat
+2023-12-03 17:56:01,481 - WARNING -  * Debugger is active!
+2023-12-03 17:56:01,497 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 20:54:01,263 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 20:54:01,381 - INFO -  * Restarting with stat
+2023-12-03 20:54:02,964 - WARNING -  * Debugger is active!
+2023-12-03 20:54:02,976 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 20:55:52,598 - INFO - 127.0.0.1 - - [03/Dec/2023 20:55:52] "[35m[1mPOST /lista/novalista/produto HTTP/1.1[0m" 500 -
+2023-12-03 20:56:34,412 - INFO - 127.0.0.1 - - [03/Dec/2023 20:56:34] "[35m[1mPOST /lista/novalista/produto HTTP/1.1[0m" 500 -
+2023-12-03 20:59:50,532 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 20:59:50,610 - INFO -  * Restarting with stat
+2023-12-03 20:59:51,703 - WARNING -  * Debugger is active!
+2023-12-03 20:59:51,715 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 20:59:54,800 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 20:59:54,886 - INFO -  * Restarting with stat
+2023-12-03 20:59:56,072 - WARNING -  * Debugger is active!
+2023-12-03 20:59:56,083 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 20:59:57,140 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 20:59:57,224 - INFO -  * Restarting with stat
+2023-12-03 20:59:59,385 - WARNING -  * Debugger is active!
+2023-12-03 20:59:59,396 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 21:00:20,599 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 21:00:20,600 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-03 21:00:20,607 - INFO -  * Restarting with stat
+2023-12-03 21:00:21,588 - WARNING -  * Debugger is active!
+2023-12-03 21:00:21,600 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 21:00:43,061 - INFO - 127.0.0.1 - - [03/Dec/2023 21:00:43] "[35m[1mPOST /lista/novalista/produto HTTP/1.1[0m" 500 -
+2023-12-03 21:05:34,649 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 21:05:34,650 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-03 21:05:34,654 - INFO -  * Restarting with stat
+2023-12-03 21:05:35,719 - WARNING -  * Debugger is active!
+2023-12-03 21:05:35,730 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 21:05:51,793 - INFO - 127.0.0.1 - - [03/Dec/2023 21:05:51] "[33mPOST /lista/novalista/produto HTTP/1.1[0m" 404 -
+2023-12-03 21:06:25,613 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 21:06:25,689 - INFO -  * Restarting with stat
+2023-12-03 21:06:26,684 - WARNING -  * Debugger is active!
+2023-12-03 21:06:26,695 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 21:06:30,785 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 21:06:30,865 - INFO -  * Restarting with stat
+2023-12-03 21:06:32,104 - WARNING -  * Debugger is active!
+2023-12-03 21:06:32,123 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 21:06:38,292 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 21:06:38,376 - INFO -  * Restarting with stat
+2023-12-03 21:06:39,367 - WARNING -  * Debugger is active!
+2023-12-03 21:06:39,379 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 21:07:39,804 - INFO - 127.0.0.1 - - [03/Dec/2023 21:07:39] "POST /criarlista HTTP/1.1" 200 -
+2023-12-03 21:08:01,272 - INFO - 127.0.0.1 - - [03/Dec/2023 21:08:01] "[35m[1mPOST /lista/novalista/produto HTTP/1.1[0m" 500 -
+2023-12-03 21:08:56,844 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 21:08:56,926 - INFO -  * Restarting with stat
+2023-12-03 21:08:57,913 - WARNING -  * Debugger is active!
+2023-12-03 21:08:57,925 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 21:08:59,996 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 21:09:00,096 - INFO -  * Restarting with stat
+2023-12-03 21:09:01,316 - WARNING -  * Debugger is active!
+2023-12-03 21:09:01,328 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 21:10:10,746 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 21:10:10,822 - INFO -  * Restarting with stat
+2023-12-03 21:10:11,796 - WARNING -  * Debugger is active!
+2023-12-03 21:10:11,808 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 21:12:35,213 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 21:12:35,293 - INFO -  * Restarting with stat
+2023-12-03 21:17:09,318 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 21:17:09,318 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-03 21:17:09,322 - INFO -  * Restarting with stat
+2023-12-03 21:17:10,674 - WARNING -  * Debugger is active!
+2023-12-03 21:17:10,687 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 21:17:14,628 - INFO - 127.0.0.1 - - [03/Dec/2023 21:17:14] "[33mPOST /lista/novalista/produto HTTP/1.1[0m" 404 -
+2023-12-03 21:17:23,444 - INFO - 127.0.0.1 - - [03/Dec/2023 21:17:23] "POST /criarlista HTTP/1.1" 200 -
+2023-12-03 21:17:28,850 - INFO - 127.0.0.1 - - [03/Dec/2023 21:17:28] "[35m[1mPOST /lista/novalista/produto HTTP/1.1[0m" 500 -
+2023-12-03 21:17:58,690 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 21:17:58,785 - INFO -  * Restarting with stat
+2023-12-03 21:19:18,942 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 21:19:18,943 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-03 21:19:18,946 - INFO -  * Restarting with stat
+2023-12-03 21:19:20,019 - WARNING -  * Debugger is active!
+2023-12-03 21:19:20,031 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 21:19:25,802 - INFO - 127.0.0.1 - - [03/Dec/2023 21:19:25] "POST /criarlista HTTP/1.1" 200 -
+2023-12-03 21:19:31,663 - INFO - 127.0.0.1 - - [03/Dec/2023 21:19:31] "POST /lista/novalista/produto HTTP/1.1" 200 -
+2023-12-03 21:20:04,009 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 21:20:04,094 - INFO -  * Restarting with stat
+2023-12-03 21:22:05,129 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 21:22:05,129 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-03 21:22:05,133 - INFO -  * Restarting with stat
+2023-12-03 21:22:06,198 - WARNING -  * Debugger is active!
+2023-12-03 21:22:06,212 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 21:22:14,230 - INFO - 127.0.0.1 - - [03/Dec/2023 21:22:14] "POST /criarlista HTTP/1.1" 200 -
+2023-12-03 21:22:19,219 - INFO - 127.0.0.1 - - [03/Dec/2023 21:22:19] "POST /lista/novalista/produto HTTP/1.1" 200 -
+2023-12-03 21:22:49,403 - INFO - 127.0.0.1 - - [03/Dec/2023 21:22:49] "POST /criarlista HTTP/1.1" 200 -
+2023-12-03 21:23:08,706 - INFO - 127.0.0.1 - - [03/Dec/2023 21:23:08] "POST /lista/teste1/produto HTTP/1.1" 200 -
+2023-12-03 21:23:32,588 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 21:23:32,679 - INFO -  * Restarting with stat
+2023-12-03 21:23:33,829 - WARNING -  * Debugger is active!
+2023-12-03 21:23:33,840 - INFO -  * Debugger PIN: 106-183-257
+2023-12-03 21:23:39,974 - INFO -  * Detected change in 'c:\\Users\\diana\\Documents\\ANALISE E DESENVOLV. DE SEISTEMAS\\4 periodo\\web  II\\Projeto-DSWII\\codigo\\app.py', reloading
+2023-12-03 21:23:40,073 - INFO -  * Restarting with stat

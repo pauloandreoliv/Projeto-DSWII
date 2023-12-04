@@ -1,5 +1,9 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 from funcoes import obtersuporte_email
+from Lista import Listas
+
+todas_listas=Listas()
+
 
 app = Flask(__name__)
 
@@ -23,9 +27,27 @@ def esqueceu():
 def minhaslistas():
     return render_template('minhaslistas.html')
 
-@app.route('/criarlista')
+
+@app.route('/criarlista', methods=['POST'])
 def criarlista():
-    return render_template('criarlista.html')
+    dados = request.get_json()  
+    nova_lista = {
+            "nome": dados["nome"],
+            "produtos": []
+        }
+    todas_listas.listas.append(nova_lista)
+    return jsonify({"message": "Lista criada com sucesso!"})
+
+#http://127.0.0.1:5000/lista/novalista/produto
+@app.route('/lista/<string:nome_lista>/produto', methods=['POST'])
+def adicionar_produto(nome_lista):  
+    dados = request.get_json()
+    for lista in todas_listas.listas:
+        if lista["nome"] == nome_lista:
+            lista["produtos"].append(dados)
+            return jsonify({"message": f"Produto {dados['produto']} adicionado na lista {nome_lista}."})
+    return jsonify({"error": "Lista não encontrada."}), 404
+
 
 @app.route('/verlista')
 def verlista():

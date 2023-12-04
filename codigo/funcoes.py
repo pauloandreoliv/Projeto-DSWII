@@ -3,7 +3,7 @@ from email.mime.text import MIMEText as textodoemail
 import smtplib  
 import logging
 
-logging.basicConfig(filename='Projeto-DSWII/logs/debug.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename='logs/debug.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def obtersuporte_email(email_cliente, texto_cliente):
     try:

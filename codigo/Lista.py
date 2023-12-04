@@ -1,8 +1,4 @@
-from Produtos import Produtos
 
-class Lista: 
-    produtos = []
-    total_produtos = 0 
-
-    
-    
+class Listas:
+    listas = []
+    total_listas = 0
