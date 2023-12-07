@@ -225,3 +225,27 @@
 2023-12-03 21:24:05,793 - INFO - 127.0.0.1 - - [03/Dec/2023 21:24:05] "POST /criarlista HTTP/1.1" 200 -
 2023-12-03 21:24:10,371 - INFO - 127.0.0.1 - - [03/Dec/2023 21:24:10] "POST /lista/teste1/produto HTTP/1.1" 200 -
 2023-12-03 21:24:19,744 - INFO - 127.0.0.1 - - [03/Dec/2023 21:24:19] "POST /lista/teste1/produto HTTP/1.1" 200 -
+2023-12-07 15:16:57,647 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-07 15:16:57,647 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-07 15:16:57,660 - INFO -  * Restarting with stat
+2023-12-07 15:16:58,308 - WARNING -  * Debugger is active!
+2023-12-07 15:16:58,308 - INFO -  * Debugger PIN: 125-844-480
+2023-12-07 15:17:22,419 - INFO - 127.0.0.1 - - [07/Dec/2023 15:17:22] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-12-07 15:17:23,466 - INFO - 127.0.0.1 - - [07/Dec/2023 15:17:23] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-12-07 15:17:23,721 - INFO - 127.0.0.1 - - [07/Dec/2023 15:17:23] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-12-07 15:17:23,736 - INFO - 127.0.0.1 - - [07/Dec/2023 15:17:23] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-12-07 15:17:23,811 - INFO - 127.0.0.1 - - [07/Dec/2023 15:17:23] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-12-07 15:17:23,835 - INFO - 127.0.0.1 - - [07/Dec/2023 15:17:23] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-07 15:28:21,618 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-07 15:28:21,618 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-07 15:28:21,630 - INFO -  * Restarting with stat
+2023-12-07 15:28:22,267 - WARNING -  * Debugger is active!
+2023-12-07 15:28:22,284 - INFO -  * Debugger PIN: 125-844-480
+2023-12-07 15:44:33,063 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-07 15:44:33,065 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-07 15:44:33,076 - INFO -  * Restarting with stat
+2023-12-07 15:44:33,841 - WARNING -  * Debugger is active!
+2023-12-07 15:44:33,848 - INFO -  * Debugger PIN: 125-844-480
