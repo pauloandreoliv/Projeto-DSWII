@@ -287,3 +287,14 @@ INFO:werkzeug: * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documen
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 125-844-480
+INFO:werkzeug: * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\api\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 125-844-480
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2023 16:09:28] "GET /listas_por_creator HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2023 16:09:35] "[31m[1mGET /listas_por_creator HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2023 16:09:49] "GET /listas_por_creator HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\api\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 125-844-480

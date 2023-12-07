@@ -66,6 +66,26 @@ def get_lista():
         logger.error(f"An Error Occurred: {e}")
         return f"An Error Occurred: {e}", 500
 
+@app.route('/listas_por_creator', methods=['GET'])
+def get_listas_por_creator():
+    try:
+        id_creator = request.json['id_creator']
+        todas_listas = lista_ref.stream()
+        listas_por_creator = []
+        for lista in todas_listas:
+            dados = lista.to_dict()
+            if 'id_creator' in dados and dados['id_creator'] == id_creator:
+                listas_por_creator.append({"id": lista.nome, "id": lista.nome, "lista": dados})
+        if listas_por_creator:
+            logger.info(f'Listas retornadas com sucesso para o ID creator {id_creator}')
+            return jsonify({"listas": listas_por_creator}), 200
+        else:
+            return jsonify({"error": f"Nenhuma lista disponível para o ID creator {id_creator}"}), 401
+    except Exception as e:
+        logger.error(f"An Error Occurred: {e}")
+        return f"An Error Occurred: {e}", 500
+
+
 @app.route('/lista', methods=['POST'])
 def create_lista():
     try:
