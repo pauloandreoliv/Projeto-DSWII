@@ -98,7 +98,7 @@ def get_listas_por_creator():
                 listas_por_creator.append({"id": dados['id'], "nome": dados['nome']})
         if listas_por_creator:
             logger.info(f'Listas retornadas com sucesso para o ID creator {id_creator}')
-            return jsonify({listas_por_creator}), 200
+            return jsonify({"listas": listas_por_creator}), 200
         else:
             return jsonify({"error": f"Nenhuma lista disponível para o ID creator {id_creator}"}), 401
     except Exception as e:

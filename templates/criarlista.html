@@ -15,41 +15,42 @@
     </header>
     <main>
         <div class="login-container">
-            <section class="principal">
-                <div class="nomedalista" type="submit"><i class="fa-solid fa-add"></i><span> Criar nova lista</span></div>
-                <input id="nomedalista" name="nomedalista" placeholder="Nome da lista" type="text">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Qtd</th>
-                            <th>Produto</th>
-                            <th>Preço</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr id="iddoproduto">
-                            <td class="qtd" id="iddoproduto_qtd">2</td>
-                            <td>Feijão</td>
-                            <td>8,90</td>
-                            <td>
-                                <div class="botoes_add">
-                                    <button class="mais" onclick="alterarQuantidade('iddoproduto_qtd', 1)">+</button>
-                                    <button class="menos" onclick="alterarQuantidade('iddoproduto_qtd', -1)">-</button>
-                                </div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-            <button class="verde" id="criar" name="criar" type="submit">Criar</button>
+            <form action="{{ url_for('cadastrarlista') }}" method="POST">
+                <section class="principal">
+                    <div class="nomedalista" type="submit">
+                        <i class="fa-solid fa-add"></i><span> Criar nova lista</span>
+                    </div>
+                    <input id="nomedalista" name="nomedalista" placeholder="Nome da lista" type="text" required>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Qtd</th>
+                                <th>Produto</th>
+                                <th>Preço</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <input type="hidden" id="total" name="total" value="{{ total }}">
+                            {% for item in itens %}
+                            <tr id="iddoproduto{{ loop.index }}">
+                                <td><input id="qtd{{ loop.index }}" name="qtd{{ loop.index }}" type="number" style="width: 30px;" oninput="validarNumero(this)"></td>
+                                <td><input id="nome{{ loop.index }}" name="nome{{ loop.index }}" type="text" value="{{ item['nome'] }}" readonly style="width: fit-content;color: black;background-color: transparent;"></td>
+                                <td><input id="preco{{ loop.index }}" name="preco{{ loop.index }}" type="text" value="{{ item['preco'] }}" readonly style="width: fit-content;color: black;background-color: transparent;"></td>
+                            </tr>
+                            {% endfor %}                        
+                        </tbody>
+                    </table>
+                </section>
+                <button class="verde" id="criar" name="criar" type="submit">Criar</button>
+            </form>            
             <a href="{{ url_for('principal') }}"><button class="vermelho" id="voltar" name="voltar">Voltar</button></a>
         </div>
     </main>
     <script>
-        function alterarQuantidade(idQtd, quantidade) {
-            var quantidadeElement = document.getElementById(idQtd);
-            var quantidadeAtual = parseInt(quantidadeElement.innerText);  
-            quantidadeElement.innerText = Math.max(quantidadeAtual + quantidade, 0);
+        function validarNumero(input){
+            if (input.value < 0) {
+                input.value = 0;
+            }
         }
     </script>    
 </body>

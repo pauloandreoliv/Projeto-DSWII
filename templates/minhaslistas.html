@@ -17,7 +17,9 @@
         <div class="login-container">
             <h2>Minhas listas</h2>
             <section class="principal">
-                    <button id="id" type="submit"><i class="fa-solid fa-bars"></i><span>lista</span></button>
+                    {%for item in itens%}
+                    <a href="/verlista?id={{item['id']}}"><button type="submit"><i class="fa-solid fa-bars"></i><span>{{item["nome"]}}</span></button></a>
+                    {%endfor%}
             </section>            
             <a href="{{ url_for('principal') }}"><button class="vermelho" id="voltar" name="voltar" type="submit">Voltar</button></a>
         </div>

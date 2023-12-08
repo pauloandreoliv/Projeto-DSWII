@@ -16,8 +16,11 @@
     <main>
         <div class="login-container">
             <section class="principal">
-                <div class="nomedalista" type="submit"><i class="fa-solid fa-bars"></i><span>x</span></div>
-                <button id="excluir"><i class="fa-solid fa-trash"></i> <span>Excluir</span></button>
+                <div class="nomedalista" type="submit"><i class="fa-solid fa-bars"></i><span> {{lista['nome']}}</span></div>
+                <form action="{{ url_for('deletarlista') }}" method="POST">
+                    <input hidden value="{{lista['id']}}" name="id_lista" id="id_lista">
+                    <button id="excluir" type="submit"><i class="fa-solid fa-trash"></i> <span>Excluir</span></button>
+                </form>
                 <table>
                     <thead>
                         <tr>
@@ -26,11 +29,13 @@
                             <th>Preço</th>
                         </tr>
                     </thead>
+                    {%for item in itens_lista%}
                         <tr>
-                            <td>x</td>
-                            <td>xxx</td>
-                            <td>x</td>
+                            <td>{{item[1]}}</td>
+                            <td>{{item[0]}}</td>
+                            <td>R${{item[2]}}</td>
                         </tr>
+                    {%endfor%}
                     </tbody>
                 </table>
             </section>

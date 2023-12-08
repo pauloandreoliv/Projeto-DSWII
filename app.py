@@ -37,10 +37,9 @@ def minhaslistas():
         id_creator = session.get('logado')['id']
         data = {"id_creator": id_creator}
         return_request = requests.get(f"{url_api}/listas_por_creator", json=data)
-        print(return_request.text)
         if return_request.status_code == 200:
             itens = json.loads(return_request.text)
-            return render_template("minhaslistas.html", itens=itens)
+            return render_template("minhaslistas.html", itens=itens['listas'])
         else:
             return render_template('minhaslistas.html', itens={})
     else:
@@ -49,7 +48,13 @@ def minhaslistas():
 @app.route('/criarlista')
 def criarlista():
     if session.get('logado') != None:
-        return render_template('criarlista.html')
+        return_request = requests.get(f"{url_api}/produto")
+        if return_request.status_code == 200:
+            itens = json.loads(return_request.text)
+            total = len(itens)
+            return render_template("criarlista.html", itens=itens, total=total)
+        else:
+            return render_template('criarlista.html', itens={"nome": "Sem produtos", "preco": 0})
     else:
         return render_template('erro.html')
 
@@ -59,8 +64,9 @@ def verlista():
         id = request.args.get('id')
         return_request = requests.get(f"{url_api}/lista", json={"id": id})
         if return_request.status_code == 200:
-            itens = json.loads(return_request.text)
-            return render_template('verlista.html', itens=itens)
+            lista = json.loads(return_request.text)
+            itens_lista = eval(lista['lista']['itens'])
+            return render_template('verlista.html', lista=lista['lista'], itens_lista=itens_lista)
         else:
             return render_template('verlista.html', itens={"qtd": 0, "nome": "Sem produtos", "preco": 0})
     else:
@@ -168,6 +174,50 @@ def cadastrarproduto():
         logging.info(f'Não foi possível cadastrar id: {id} -> {return_request.text}')
         return f"{return_request.status_code} : {return_request.text}  <br> <a href='/criarproduto'>Tentar novamente</a>"
         
+@app.route('/cadastrarlista', methods=["POST"])
+def cadastrarlista():
+    id_creator = session.get('logado')['id']
+    total = int(request.form['total'])
+    nome_lista = request.form['nomedalista']
+    lista = []
+    for k in range(1, total + 1):
+        nome = request.form.get(f'nome{k}')
+        qtd = request.form.get(f'qtd{k}')
+        preco = request.form.get(f'preco{k}')
+
+        if nome != None and preco != None and qtd != None and qtd != '':
+            if int(qtd) > 0:
+                lista.append([nome,qtd,preco])
+        else:
+            logging.info(f"Campo {nome} não encontrado nos dados do formulário.")
+    data = {
+        "nome" : nome_lista,
+        "itens" : str(lista),
+        "id_creator": id_creator
+    }
+    return_request = requests.post(f"{url_api}/lista", json=data)
+    if return_request.status_code == 200:
+        logging.info(f'Cadastro de lista realizado com sucesso')
+        return 'Cadastro realizado com sucesso. <a href="/principal">Página Inicial</a>'
+    else:
+        logging.info(f'Não foi possível cadastrar lista -> {return_request.text}')
+        return f"{return_request.status_code} : {return_request.text}  <br> <a href='/criarlista'>Tentar novamente</a>"
+        
+@app.route('/deletarlista', methods=["POST"])
+def deletarlista():
+    id_lista = request.form['id_lista']
+    data = {
+        "id" : id_lista
+    }
+    return_request = requests.delete(f"{url_api}/lista", json=data)
+
+    if return_request.status_code == 200:
+        logging.info(f'Lista apagada com sucesso: {id_lista}')
+        return 'Lista apagada com sucesso. <a href="/minhaslistas">Página Inicial</a>'
+    else:
+        logging.info(f'Não foi possível remover lista: {id_lista} -> {return_request.text}')
+        return f"{return_request.status_code} : {return_request.text}  <br> <a href='/minhaslistas'>Tentar novamente</a>"
+
 @app.route('/logout')
 def logout():
     session.pop('logado', None)
