@@ -298,3 +298,30 @@ INFO:werkzeug: * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documen
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 125-844-480
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 125-844-480
+ERROR:root:An Error Occurred: 400 Document name "projects/app-mercado-4bae7/databases/(default)/documents/lista/" has invalid trailing "/".
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2023 16:59:56] "[35m[1mGET /lista HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2023 17:00:23] "GET /lista HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2023 17:00:50] "[31m[1mGET /lista HTTP/1.1[0m" 401 -
+ERROR:root:An Error Occurred: 400 Document name "projects/app-mercado-4bae7/databases/(default)/documents/lista/" has invalid trailing "/".
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2023 17:00:56] "[35m[1mGET /lista HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 125-844-480
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2023 17:24:34] "[31m[1mPOST /user HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2023 17:24:46] "POST /user HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 125-844-480
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2023 20:57:27] "[33mGET /minhaslistas HTTP/1.1[0m" 404 -

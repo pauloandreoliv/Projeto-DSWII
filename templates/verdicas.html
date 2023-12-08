@@ -24,9 +24,11 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>Feijãaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaao</td>
+                        {%for item in itens%}
+                        <tr style="border: 1px solid silver;">
+                            <td>{{item["dica"]}}</td>
                         </tr>
+                        {%endfor%}
                     </tbody>
                 </table>
             </section>

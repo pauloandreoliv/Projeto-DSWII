@@ -17,10 +17,13 @@
         <div class="login-container">
             <section class="principal">
                 <div class="nomedalista" type="submit"><i class="fa-solid fa-add"></i><span> Criar novo produto</span></div>
-                <input id="nomedoproduto" name="nomedalista" placeholder="Nome da lista" type="text" required>
-                <input id="precodoproduto" name="nomedalista" placeholder="Nome da lista" type="number" required>
+                <form action="{{url_for('cadastrarproduto')}}" method="POST">
+                    <input id="nomedoproduto" name="nomedoproduto" placeholder="Nome do produto" type="text" required>
+                    <input id="precodoproduto" name="precodoproduto" placeholder="Preço do produto" type="number" required>
+                    
             </section>
             <button class="verde" id="criar" name="criar" type="submit">Criar</button>
+                </form>
             <a href="{{ url_for('principal') }}"><button class="vermelho" id="voltar" name="voltar" type="submit">Voltar</button></a>
         </div>
     </main>

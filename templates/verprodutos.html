@@ -25,10 +25,12 @@
                         </tr>
                     </thead>
                     <tbody>
+                        {%for item in itens%}
                         <tr>
-                            <td>Feijão</td>
-                            <td>8,90</td>
+                            <td>{{item["nome"]}}</td>
+                            <td>R${{item["preco"]}}</td>
                         </tr>
+                        {%endfor%}
                     </tbody>
                 </table>
             </section>
