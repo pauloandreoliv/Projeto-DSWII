@@ -2183,3 +2183,115 @@
 2023-12-08 00:43:10,207 - INFO - 127.0.0.1 - - [08/Dec/2023 00:43:10] "GET /verprodutos HTTP/1.1" 200 -
 2023-12-08 00:43:11,590 - INFO - 127.0.0.1 - - [08/Dec/2023 00:43:11] "GET /principal HTTP/1.1" 200 -
 2023-12-08 00:43:13,448 - INFO - 127.0.0.1 - - [08/Dec/2023 00:43:13] "GET /logout HTTP/1.1" 200 -
+2023-12-08 00:46:01,363 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 00:46:01,494 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-08 00:46:01,502 - INFO -  * Restarting with stat
+2023-12-08 00:46:02,315 - WARNING -  * Debugger is active!
+2023-12-08 00:46:02,331 - INFO -  * Debugger PIN: 125-844-480
+2023-12-08 00:46:02,371 - INFO - 127.0.0.1 - - [08/Dec/2023 00:46:02] "GET / HTTP/1.1" 200 -
+2023-12-08 00:46:09,252 - INFO - 127.0.0.1 - - [08/Dec/2023 00:46:09] "GET /esqueceu HTTP/1.1" 200 -
+2023-12-08 00:49:57,023 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\funcoes.py', reloading
+2023-12-08 00:49:57,135 - INFO -  * Restarting with stat
+2023-12-08 00:49:58,104 - WARNING -  * Debugger is active!
+2023-12-08 00:49:58,122 - INFO -  * Debugger PIN: 125-844-480
+2023-12-08 00:50:02,217 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\funcoes.py', reloading
+2023-12-08 00:50:02,293 - INFO -  * Restarting with stat
+2023-12-08 00:50:03,070 - WARNING -  * Debugger is active!
+2023-12-08 00:50:03,086 - INFO -  * Debugger PIN: 125-844-480
+2023-12-08 00:50:10,195 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\funcoes.py', reloading
+2023-12-08 00:50:10,308 - INFO -  * Restarting with stat
+2023-12-08 00:50:11,128 - WARNING -  * Debugger is active!
+2023-12-08 00:50:11,136 - INFO -  * Debugger PIN: 125-844-480
+2023-12-08 00:50:38,480 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\funcoes.py', reloading
+2023-12-08 00:50:38,619 - INFO -  * Restarting with stat
+2023-12-08 00:50:39,435 - WARNING -  * Debugger is active!
+2023-12-08 00:50:39,449 - INFO -  * Debugger PIN: 125-844-480
+2023-12-08 00:51:06,782 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\funcoes.py', reloading
+2023-12-08 00:51:06,880 - INFO -  * Restarting with stat
+2023-12-08 00:51:07,774 - WARNING -  * Debugger is active!
+2023-12-08 00:51:07,788 - INFO -  * Debugger PIN: 125-844-480
+2023-12-08 00:51:28,072 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\funcoes.py', reloading
+2023-12-08 00:51:28,185 - INFO -  * Restarting with stat
+2023-12-08 00:51:29,177 - WARNING -  * Debugger is active!
+2023-12-08 00:51:29,192 - INFO -  * Debugger PIN: 125-844-480
+2023-12-08 00:54:46,514 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\api\\app.py', reloading
+2023-12-08 00:54:46,640 - INFO -  * Restarting with stat
+2023-12-08 00:54:47,596 - WARNING -  * Debugger is active!
+2023-12-08 00:54:47,612 - INFO -  * Debugger PIN: 125-844-480
+2023-12-08 00:56:41,897 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\api\\app.py', reloading
+2023-12-08 00:56:42,017 - INFO -  * Restarting with stat
+2023-12-08 00:56:42,835 - WARNING -  * Debugger is active!
+2023-12-08 00:56:42,850 - INFO -  * Debugger PIN: 125-844-480
+2023-12-08 00:57:45,571 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\api\\app.py', reloading
+2023-12-08 00:57:45,682 - INFO -  * Restarting with stat
+2023-12-08 00:57:46,536 - WARNING -  * Debugger is active!
+2023-12-08 00:57:46,544 - INFO -  * Debugger PIN: 125-844-480
+2023-12-08 00:59:18,601 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\app.py', reloading
+2023-12-08 00:59:18,736 - INFO -  * Restarting with stat
+2023-12-08 00:59:19,568 - WARNING -  * Debugger is active!
+2023-12-08 00:59:19,585 - INFO -  * Debugger PIN: 125-844-480
+2023-12-08 01:00:55,750 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\app.py', reloading
+2023-12-08 01:00:55,857 - INFO -  * Restarting with stat
+2023-12-08 01:00:56,740 - WARNING -  * Debugger is active!
+2023-12-08 01:00:56,755 - INFO -  * Debugger PIN: 125-844-480
+2023-12-08 01:02:44,736 - INFO - 127.0.0.1 - - [08/Dec/2023 01:02:44] "GET / HTTP/1.1" 200 -
+2023-12-08 01:03:55,536 - INFO - 127.0.0.1 - - [08/Dec/2023 01:03:55] "GET / HTTP/1.1" 200 -
+2023-12-08 01:03:56,850 - INFO - 127.0.0.1 - - [08/Dec/2023 01:03:56] "GET /esqueceu HTTP/1.1" 200 -
+2023-12-08 01:04:01,652 - INFO - 127.0.0.1 - - [08/Dec/2023 01:04:01] "GET /esqueceu?cpf=111.111.111-11&email=teste@gmail.com&entrar= HTTP/1.1" 200 -
+2023-12-08 01:04:36,352 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\app.py', reloading
+2023-12-08 01:04:36,498 - INFO -  * Restarting with stat
+2023-12-08 01:04:37,551 - WARNING -  * Debugger is active!
+2023-12-08 01:04:37,567 - INFO -  * Debugger PIN: 125-844-480
+2023-12-08 01:06:35,969 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\api\\app.py', reloading
+2023-12-08 01:06:36,126 - INFO -  * Restarting with stat
+2023-12-08 01:06:37,075 - WARNING -  * Debugger is active!
+2023-12-08 01:06:37,105 - INFO -  * Debugger PIN: 125-844-480
+2023-12-08 01:09:13,942 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\app.py', reloading
+2023-12-08 01:09:14,059 - INFO -  * Restarting with stat
+2023-12-08 01:09:15,056 - WARNING -  * Debugger is active!
+2023-12-08 01:09:15,070 - INFO -  * Debugger PIN: 125-844-480
+2023-12-08 01:09:57,952 - INFO - 127.0.0.1 - - [08/Dec/2023 01:09:57] "GET /esqueceu?cpf=111.111.111-11&email=pauloandreolivs@gmail.com&entrar= HTTP/1.1" 200 -
+2023-12-08 01:10:01,809 - INFO - 127.0.0.1 - - [08/Dec/2023 01:10:01] "GET / HTTP/1.1" 200 -
+2023-12-08 01:11:55,910 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\app.py', reloading
+2023-12-08 01:11:56,035 - INFO -  * Restarting with stat
+2023-12-08 01:11:56,955 - WARNING -  * Debugger is active!
+2023-12-08 01:11:56,969 - INFO -  * Debugger PIN: 125-844-480
+2023-12-08 01:13:09,828 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\app.py', reloading
+2023-12-08 01:13:09,969 - INFO -  * Restarting with stat
+2023-12-08 01:13:10,820 - WARNING -  * Debugger is active!
+2023-12-08 01:13:10,836 - INFO -  * Debugger PIN: 125-844-480
+2023-12-08 01:14:04,485 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\app.py', reloading
+2023-12-08 01:14:04,618 - INFO -  * Restarting with stat
+2023-12-08 01:14:05,597 - WARNING -  * Debugger is active!
+2023-12-08 01:14:05,615 - INFO -  * Debugger PIN: 125-844-480
+2023-12-08 01:14:13,749 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\funcoes.py', reloading
+2023-12-08 01:14:13,871 - INFO -  * Restarting with stat
+2023-12-08 01:14:14,765 - WARNING -  * Debugger is active!
+2023-12-08 01:14:14,778 - INFO -  * Debugger PIN: 125-844-480
+2023-12-08 01:14:26,956 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\funcoes.py', reloading
+2023-12-08 01:14:27,108 - INFO -  * Restarting with stat
+2023-12-08 01:14:28,086 - WARNING -  * Debugger is active!
+2023-12-08 01:14:28,101 - INFO -  * Debugger PIN: 125-844-480
+2023-12-08 01:14:39,286 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 01:14:39,286 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-08 01:14:39,294 - INFO -  * Restarting with stat
+2023-12-08 01:14:40,134 - WARNING -  * Debugger is active!
+2023-12-08 01:14:40,147 - INFO -  * Debugger PIN: 125-844-480
+2023-12-08 01:15:21,689 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\app.py', reloading
+2023-12-08 01:15:21,819 - INFO -  * Restarting with stat
+2023-12-08 01:15:25,273 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 01:15:25,275 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-08 01:15:25,284 - INFO -  * Restarting with stat
+2023-12-08 01:15:26,185 - WARNING -  * Debugger is active!
+2023-12-08 01:15:26,201 - INFO -  * Debugger PIN: 125-844-480
+2023-12-08 01:15:27,096 - INFO - 127.0.0.1 - - [08/Dec/2023 01:15:27] "GET / HTTP/1.1" 200 -
+2023-12-08 01:15:35,016 - INFO - 127.0.0.1 - - [08/Dec/2023 01:15:35] "GET /esqueceu HTTP/1.1" 200 -
+2023-12-08 01:15:38,580 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-08 01:15:39,977 - DEBUG - https://api-dswii.onrender.com:443 "PUT /user HTTP/1.1" 200 78
+2023-12-08 01:15:39,980 - INFO - Email de recuparação enviado para pauloandreolivs@gmail.com
+2023-12-08 01:15:43,527 - INFO - SUCESSO no envio de recuperação de senha por e-mail: pauloandreolivs@gmail.com 
+2023-12-08 01:15:43,533 - INFO - 127.0.0.1 - - [08/Dec/2023 01:15:43] "POST /recuperarsenha HTTP/1.1" 200 -
+2023-12-08 01:16:35,211 - INFO - 127.0.0.1 - - [08/Dec/2023 01:16:35] "GET / HTTP/1.1" 200 -

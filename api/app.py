@@ -54,6 +54,23 @@ def create_user():
         logger.error(f"An Error Occurred: {e}")
         return f"An Error Occurred: {e}", 500
 
+@app.route('/user', methods=['PUT'])
+def update_user():
+    try:
+        id = request.json['id']
+        senha = str(uuid.uuid4())
+        doc = user_ref.document(id).get().to_dict()
+        if doc:
+            doc["senha"] = senha
+            user_ref.document(id).set(doc)
+            logger.info(f'Senha de {id} alterada')
+            return jsonify({"senha": senha}), 200
+        else:
+            return jsonify({"erro": f"Não foi possível encontrar o usuário {id}"}), 401
+    except Exception as e:
+        logger.error(f"An Error Occurred: {e}")
+        return f"An Error Occurred: {e}", 500
+
 @app.route('/login', methods=['GET'])
 def login():
     try:

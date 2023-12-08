@@ -1,5 +1,5 @@
-from flask import Flask, session, redirect, url_for, render_template, request
-from funcoes import obtersuporte_email
+from flask import Flask, session, render_template, request
+from funcoes import obtersuporte_email, recuperarsenha_email
 import requests
 import json
 import logging
@@ -217,6 +217,26 @@ def deletarlista():
     else:
         logging.info(f'Não foi possível remover lista: {id_lista} -> {return_request.text}')
         return f"{return_request.status_code} : {return_request.text}  <br> <a href='/minhaslistas'>Tentar novamente</a>"
+
+@app.route('/recuperarsenha', methods=["POST"])
+def recuperarsenha():
+    id = request.form['cpf']
+    email = request.form['email']
+    if id != '' and email != '' and id != None and email != None:
+        data = {
+            "id" : id
+        }
+        return_request = requests.put(f"{url_api}/user", json=data)
+        if return_request.status_code == 200:
+            json_return = json.loads(return_request.text)
+            senha = json_return['senha']
+            logging.info(f'Email de recuparação enviado para {email}')
+            return recuperarsenha_email(email, senha) + '<a href="/">Página Inicial</a>'
+        else:
+            logging.info(f'Não foi possível enviar email {email} -> {return_request.text}')
+            return f"{return_request.status_code} : {return_request.text}  <br> <a href='/esqueceu'>Tentar novamente</a>"          
+    else:
+        return 'Campos inválidos. Verifique os dados informados'
 
 @app.route('/logout')
 def logout():
