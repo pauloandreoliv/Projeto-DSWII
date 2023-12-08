@@ -1413,3 +1413,116 @@
 2023-12-07 20:58:54,782 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
 2023-12-07 20:58:55,523 - DEBUG - https://api-dswii.onrender.com:443 "GET /listas_por_creator HTTP/1.1" 200 153
 2023-12-07 20:58:55,542 - INFO - 127.0.0.1 - - [07/Dec/2023 20:58:55] "GET /minhaslistas HTTP/1.1" 200 -
+2023-12-07 22:34:18,476 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-07 22:34:18,476 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-07 22:34:18,481 - INFO -  * Restarting with stat
+2023-12-07 22:34:18,928 - WARNING -  * Debugger is active!
+2023-12-07 22:34:18,936 - INFO -  * Debugger PIN: 125-844-480
+2023-12-07 22:34:21,488 - INFO - 127.0.0.1 - - [07/Dec/2023 22:34:21] "GET / HTTP/1.1" 200 -
+2023-12-07 22:34:22,886 - INFO - 127.0.0.1 - - [07/Dec/2023 22:34:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-07 22:34:28,043 - INFO - 127.0.0.1 - - [07/Dec/2023 22:34:28] "GET /principal HTTP/1.1" 200 -
+2023-12-07 22:34:31,421 - INFO - 127.0.0.1 - - [07/Dec/2023 22:34:31] "GET /logout HTTP/1.1" 200 -
+2023-12-07 22:34:32,662 - INFO - 127.0.0.1 - - [07/Dec/2023 22:34:32] "GET / HTTP/1.1" 200 -
+2023-12-07 22:34:34,398 - INFO - 127.0.0.1 - - [07/Dec/2023 22:34:34] "GET /principal HTTP/1.1" 200 -
+2023-12-07 22:34:36,900 - INFO - 127.0.0.1 - - [07/Dec/2023 22:34:36] "GET / HTTP/1.1" 200 -
+2023-12-07 22:34:41,105 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-07 22:34:41,514 - DEBUG - https://api-dswii.onrender.com:443 "GET /login HTTP/1.1" 401 78
+2023-12-07 22:34:41,533 - INFO - 127.0.0.1 - - [07/Dec/2023 22:34:41] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2023-12-07 22:34:41,640 - INFO - 127.0.0.1 - - [07/Dec/2023 22:34:41] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-12-07 22:34:41,643 - INFO - 127.0.0.1 - - [07/Dec/2023 22:34:41] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-12-07 22:34:41,672 - INFO - 127.0.0.1 - - [07/Dec/2023 22:34:41] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-12-07 22:34:41,684 - INFO - 127.0.0.1 - - [07/Dec/2023 22:34:41] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-07 22:35:48,484 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\app.py', reloading
+2023-12-07 22:35:48,553 - INFO -  * Restarting with stat
+2023-12-07 22:36:19,149 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-07 22:36:19,150 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-07 22:36:19,154 - INFO -  * Restarting with stat
+2023-12-07 22:36:19,516 - WARNING -  * Debugger is active!
+2023-12-07 22:36:19,521 - INFO -  * Debugger PIN: 125-844-480
+2023-12-07 22:36:24,212 - INFO - 127.0.0.1 - - [07/Dec/2023 22:36:24] "GET / HTTP/1.1" 200 -
+2023-12-07 22:36:28,581 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-07 22:36:28,975 - DEBUG - https://api-dswii.onrender.com:443 "GET /login HTTP/1.1" 401 78
+2023-12-07 22:36:28,982 - INFO - 127.0.0.1 - - [07/Dec/2023 22:36:28] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2023-12-07 22:36:29,096 - INFO - 127.0.0.1 - - [07/Dec/2023 22:36:29] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-12-07 22:36:29,098 - INFO - 127.0.0.1 - - [07/Dec/2023 22:36:29] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-12-07 22:36:29,111 - INFO - 127.0.0.1 - - [07/Dec/2023 22:36:29] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-07 22:36:43,674 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\app.py', reloading
+2023-12-07 22:36:43,735 - INFO -  * Restarting with stat
+2023-12-07 22:36:44,105 - WARNING -  * Debugger is active!
+2023-12-07 22:36:44,110 - INFO -  * Debugger PIN: 125-844-480
+2023-12-07 22:36:49,823 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-07 22:36:49,823 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-07 22:36:49,827 - INFO -  * Restarting with stat
+2023-12-07 22:36:50,191 - WARNING -  * Debugger is active!
+2023-12-07 22:36:50,196 - INFO -  * Debugger PIN: 125-844-480
+2023-12-07 22:36:53,780 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-07 22:36:54,189 - DEBUG - https://api-dswii.onrender.com:443 "GET /login HTTP/1.1" 401 78
+2023-12-07 22:36:54,196 - INFO - 127.0.0.1 - - [07/Dec/2023 22:36:54] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2023-12-07 22:36:54,299 - INFO - 127.0.0.1 - - [07/Dec/2023 22:36:54] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-12-07 22:36:54,299 - INFO - 127.0.0.1 - - [07/Dec/2023 22:36:54] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-12-07 22:36:54,318 - INFO - 127.0.0.1 - - [07/Dec/2023 22:36:54] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-07 22:37:23,406 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\app.py', reloading
+2023-12-07 22:37:23,463 - INFO -  * Restarting with stat
+2023-12-07 22:37:23,827 - WARNING -  * Debugger is active!
+2023-12-07 22:37:23,838 - INFO -  * Debugger PIN: 125-844-480
+2023-12-07 22:37:26,871 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\app.py', reloading
+2023-12-07 22:37:26,925 - INFO -  * Restarting with stat
+2023-12-07 22:37:33,142 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-07 22:37:33,142 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-07 22:37:33,142 - INFO -  * Restarting with stat
+2023-12-07 22:37:33,513 - WARNING -  * Debugger is active!
+2023-12-07 22:37:33,520 - INFO -  * Debugger PIN: 125-844-480
+2023-12-07 22:37:39,471 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-07 22:37:40,304 - DEBUG - https://api-dswii.onrender.com:443 "GET /login HTTP/1.1" 401 78
+2023-12-07 22:37:40,306 - INFO - Sessão de usuário não permitida
+2023-12-07 22:37:40,307 - INFO - 127.0.0.1 - - [07/Dec/2023 22:37:40] "POST /login HTTP/1.1" 200 -
+2023-12-07 22:37:43,007 - INFO - 127.0.0.1 - - [07/Dec/2023 22:37:43] "[33mGET /entrar HTTP/1.1[0m" 404 -
+2023-12-07 22:38:05,724 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\app.py', reloading
+2023-12-07 22:38:05,778 - INFO -  * Restarting with stat
+2023-12-07 22:38:06,156 - WARNING -  * Debugger is active!
+2023-12-07 22:38:06,162 - INFO -  * Debugger PIN: 125-844-480
+2023-12-07 22:38:12,085 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-07 22:38:12,085 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-07 22:38:12,087 - INFO -  * Restarting with stat
+2023-12-07 22:38:12,466 - WARNING -  * Debugger is active!
+2023-12-07 22:38:12,472 - INFO -  * Debugger PIN: 125-844-480
+2023-12-07 22:38:15,848 - INFO - 127.0.0.1 - - [07/Dec/2023 22:38:15] "[33mGET /entrar HTTP/1.1[0m" 404 -
+2023-12-07 22:38:18,124 - INFO - 127.0.0.1 - - [07/Dec/2023 22:38:18] "GET / HTTP/1.1" 200 -
+2023-12-07 22:38:24,273 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-07 22:38:24,627 - DEBUG - https://api-dswii.onrender.com:443 "GET /login HTTP/1.1" 401 78
+2023-12-07 22:38:24,627 - INFO - Sessão de usuário não permitida
+2023-12-07 22:38:24,629 - INFO - 127.0.0.1 - - [07/Dec/2023 22:38:24] "POST /login HTTP/1.1" 200 -
+2023-12-07 22:38:26,039 - INFO - 127.0.0.1 - - [07/Dec/2023 22:38:26] "GET / HTTP/1.1" 200 -
+2023-12-07 22:38:31,033 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-07 22:38:31,512 - DEBUG - https://api-dswii.onrender.com:443 "GET /login HTTP/1.1" 200 48
+2023-12-07 22:38:31,513 - INFO - Sessão de usuário {'id': '888.888.888-88'} iniciada
+2023-12-07 22:38:31,515 - INFO - 127.0.0.1 - - [07/Dec/2023 22:38:31] "POST /login HTTP/1.1" 200 -
+2023-12-07 22:38:33,047 - INFO - 127.0.0.1 - - [07/Dec/2023 22:38:33] "GET /principal HTTP/1.1" 200 -
+2023-12-07 22:38:34,830 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-07 22:38:35,190 - DEBUG - https://api-dswii.onrender.com:443 "GET /listas_por_creator HTTP/1.1" 401 99
+2023-12-07 22:38:35,195 - INFO - 127.0.0.1 - - [07/Dec/2023 22:38:35] "GET /minhaslistas HTTP/1.1" 200 -
+2023-12-07 22:39:14,863 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\app.py', reloading
+2023-12-07 22:39:14,916 - INFO -  * Restarting with stat
+2023-12-07 22:39:15,292 - WARNING -  * Debugger is active!
+2023-12-07 22:39:15,301 - INFO -  * Debugger PIN: 125-844-480
+2023-12-07 22:39:19,686 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-07 22:39:19,686 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-07 22:39:19,690 - INFO -  * Restarting with stat
+2023-12-07 22:39:20,047 - WARNING -  * Debugger is active!
+2023-12-07 22:39:20,060 - INFO -  * Debugger PIN: 125-844-480
+2023-12-07 22:39:23,017 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-07 22:39:23,405 - DEBUG - https://api-dswii.onrender.com:443 "GET /listas_por_creator HTTP/1.1" 401 99
+2023-12-07 22:39:23,411 - INFO - 127.0.0.1 - - [07/Dec/2023 22:39:23] "GET /minhaslistas HTTP/1.1" 200 -
+2023-12-07 22:41:25,048 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-07 22:41:25,441 - DEBUG - https://api-dswii.onrender.com:443 "GET /listas_por_creator HTTP/1.1" 200 181
+2023-12-07 22:41:25,447 - INFO - 127.0.0.1 - - [07/Dec/2023 22:41:25] "GET /minhaslistas HTTP/1.1" 200 -
+2023-12-07 22:43:33,552 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\api\\app.py', reloading
+2023-12-07 22:43:33,612 - INFO -  * Restarting with stat
+2023-12-07 22:43:33,997 - WARNING -  * Debugger is active!
+2023-12-07 22:43:34,003 - INFO -  * Debugger PIN: 125-844-480

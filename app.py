@@ -37,6 +37,7 @@ def minhaslistas():
         id_creator = session.get('logado')['id']
         data = {"id_creator": id_creator}
         return_request = requests.get(f"{url_api}/listas_por_creator", json=data)
+        print(return_request.text)
         if return_request.status_code == 200:
             itens = json.loads(return_request.text)
             return render_template("minhaslistas.html", itens=itens)
@@ -134,8 +135,8 @@ def login():
         logging.info(f'Sessão de usuário {id} iniciada')
         return 'Login realizado com sucesso. <a href="/principal">Página Inicial</a>'
     else:
-        logging.info(f'Sessão de usuário {id} não permitida')
-        return f"{return_request.status_code} : {return_request.text}  <br> <a href='/entrar'>Tentar novamente</a>"
+        logging.info(f'Sessão de usuário não permitida')
+        return f"{return_request.status_code} : {return_request.text}  <br> <a href='/'>Tentar novamente</a>"
 
 @app.route('/cadastrarusuario', methods=["POST"])
 def cadastrarusuario():
