@@ -31,59 +31,6 @@ def cadastrar():
 def esqueceu():
     return render_template('esqueceu.html')
 
-@app.route('/minhaslistas')
-def minhaslistas():
-    if session.get('logado') != None:
-        id_creator = session.get('logado')['id']
-        data = {"id_creator": id_creator}
-        return_request = requests.get(f"{url_api}/listas_por_creator", json=data)
-        if return_request.status_code == 200:
-            itens = json.loads(return_request.text)
-            return render_template("minhaslistas.html", itens=itens['listas'])
-        else:
-            return render_template('minhaslistas.html', itens={})
-    else:
-        return render_template('erro.html')
-
-@app.route('/criarlista')
-def criarlista():
-    if session.get('logado') != None:
-        return_request = requests.get(f"{url_api}/produto")
-        if return_request.status_code == 200:
-            itens = json.loads(return_request.text)
-            total = len(itens)
-            return render_template("criarlista.html", itens=itens, total=total)
-        else:
-            return render_template('criarlista.html', itens={"nome": "Sem produtos", "preco": 0})
-    else:
-        return render_template('erro.html')
-
-@app.route('/verlista', methods=['GET'])
-def verlista():
-    if session.get('logado') != None:
-        id = request.args.get('id')
-        return_request = requests.get(f"{url_api}/lista", json={"id": id})
-        if return_request.status_code == 200:
-            lista = json.loads(return_request.text)
-            itens_lista = eval(lista['lista']['itens'])
-            return render_template('verlista.html', lista=lista['lista'], itens_lista=itens_lista)
-        else:
-            return render_template('verlista.html', itens={"qtd": 0, "nome": "Sem produtos", "preco": 0})
-    else:
-        return render_template('erro.html')
-
-@app.route('/verprodutos')
-def verprodutos():
-    if session.get('logado') != None:
-        return_request = requests.get(f"{url_api}/produto")
-        if return_request.status_code == 200:
-            itens = json.loads(return_request.text)
-            return render_template("verprodutos.html", itens=itens)
-        else:
-            return render_template('verprodutos.html', itens={"nome": "Sem produtos", "preco": 0})
-    else:
-        return render_template('erro.html')
-
 @app.route('/criarproduto')
 def criarproduto():
     if session.get('logado') != None:
@@ -91,31 +38,91 @@ def criarproduto():
     else:
         return render_template('erro.html')
 
+#GET
+@app.route('/minhaslistas')
+def minhaslistas():
+    if session.get('logado') != None:
+        id_creator = session.get('logado')['id']
+        data = {"id_creator": id_creator}
+        headers = {"Authorization": session.get('logado')['token']}
+        return_request = requests.get(f"{url_api}/listas_por_creator", json=data, headers=headers)
+        if return_request.status_code == 200:
+            itens = json.loads(return_request.text)
+            return render_template("minhaslistas.html", itens=itens['listas'])
+        else:
+            return f"{return_request.status_code} : {return_request.text}  <br> <a href='/minhaslistas'>Tentar novamente</a> <br> <a href='/'>Fazer login</a>"
+    else:
+        return render_template('erro.html')
+
+@app.route('/criarlista')
+def criarlista():
+    if session.get('logado') != None:
+        headers = {"Authorization": session.get('logado')['token']}
+        return_request = requests.get(f"{url_api}/produto", headers=headers)
+        if return_request.status_code == 200:
+            itens = json.loads(return_request.text)
+            total = len(itens)
+            return render_template("criarlista.html", itens=itens, total=total)
+        else:
+            return f"{return_request.status_code} : {return_request.text}  <br> <a href='/criarlista'>Tentar novamente</a> <br> <a href='/'>Fazer login</a>"
+    else:
+        return render_template('erro.html')
+
+@app.route('/verlista', methods=['GET'])
+def verlista():
+    if session.get('logado') != None:
+        id = request.args.get('id')
+        headers = {"Authorization": session.get('logado')['token']}
+        return_request = requests.get(f"{url_api}/lista", json={"id": id}, headers=headers)
+        if return_request.status_code == 200:
+            lista = json.loads(return_request.text)
+            itens_lista = eval(lista['lista']['itens'])
+            return render_template('verlista.html', lista=lista['lista'], itens_lista=itens_lista)
+        else:
+            return f"{return_request.status_code} : {return_request.text}  <br> <a href='/verlista'>Tentar novamente</a> <br> <a href='/'>Fazer login</a>"
+    else:
+        return render_template('erro.html')
+
+@app.route('/verprodutos')
+def verprodutos():
+    if session.get('logado') != None:
+        headers = {"Authorization": session.get('logado')['token']}
+        return_request = requests.get(f"{url_api}/produto", headers=headers)
+        if return_request.status_code == 200:
+            itens = json.loads(return_request.text)
+            return render_template("verprodutos.html", itens=itens)
+        else:
+            return f"{return_request.status_code} : {return_request.text}  <br> <a href='/verprodutos'>Tentar novamente</a> <br> <a href='/'>Fazer login</a>"
+    else:
+        return render_template('erro.html')
+
 @app.route('/verpromocoes')
 def verpromocoes():
     if session.get('logado') != None:
-        return_request = requests.get(f"{url_api}/promocoes")
+        headers = {"Authorization": session.get('logado')['token']}
+        return_request = requests.get(f"{url_api}/promocoes", headers=headers)
         if return_request.status_code == 200:
             itens = json.loads(return_request.text)
             return render_template("verpromocoes.html", itens=itens)
         else:
-            return render_template('verpromocoes.html', itens={"nome": "Sem promoções", "preco": 0})
+            return f"{return_request.status_code} : {return_request.text}  <br> <a href='/verpromocoes'>Tentar novamente</a> <br> <a href='/'>Fazer login</a>"
     else:
         return render_template('erro.html')
 
 @app.route('/verdicas')
 def verdicas():
     if session.get('logado') != None:
-        return_request = requests.get(f"{url_api}/dicas")
+        headers = {"Authorization": session.get('logado')['token']}
+        return_request = requests.get(f"{url_api}/dicas", headers=headers)
         if return_request.status_code == 200:
             itens = json.loads(return_request.text)
             return render_template("verdicas.html", itens=itens)
         else:
-            return render_template('verdicas.html', itens={"dica": "Sem dicas"})
+            return f"{return_request.status_code} : {return_request.text}  <br> <a href='/verdicas'>Tentar novamente</a> <br> <a href='/'>Fazer login</a>"
     else:
         return render_template('erro.html')
 
-#Funcionalidades
+#POST
 @app.route('/obtersuporte', methods=['GET','POST'])
 def obtersuporte():
     if request.method == 'POST':
@@ -165,7 +172,8 @@ def cadastrarproduto():
         "nome" : str(request.form["nomedoproduto"]),
         "preco" : str(request.form["precodoproduto"])
     }
-    return_request = requests.post(f"{url_api}/produto", json=data)
+    headers = {"Authorization": session.get('logado')['token']}
+    return_request = requests.post(f"{url_api}/produto", json=data, headers=headers)
 
     if return_request.status_code == 200:
         logging.info(f'Cadastro realizado com sucesso: {id}')
@@ -195,7 +203,9 @@ def cadastrarlista():
         "itens" : str(lista),
         "id_creator": id_creator
     }
-    return_request = requests.post(f"{url_api}/lista", json=data)
+
+    headers = {"Authorization": session.get('logado')['token']}
+    return_request = requests.post(f"{url_api}/lista", json=data, headers=headers)
     if return_request.status_code == 200:
         logging.info(f'Cadastro de lista realizado com sucesso')
         return 'Cadastro realizado com sucesso. <a href="/principal">Página Inicial</a>'
@@ -209,7 +219,8 @@ def deletarlista():
     data = {
         "id" : id_lista
     }
-    return_request = requests.delete(f"{url_api}/lista", json=data)
+    headers = {"Authorization": session.get('logado')['token']}
+    return_request = requests.delete(f"{url_api}/lista", json=data, headers=headers)
 
     if return_request.status_code == 200:
         logging.info(f'Lista apagada com sucesso: {id_lista}')

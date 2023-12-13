@@ -1,6 +1,8 @@
 from flask import Flask, jsonify
 from flask import Flask, request, jsonify
 from firebase_admin import credentials, firestore, initialize_app
+from servico_autenticacao import gerar_token
+from servico_validador import validar_token
 import logging 
 import uuid
 
@@ -81,7 +83,8 @@ def login():
         
         if dados and dados.get('senha') == senha:
             logger.info(f'Logado com sucesso')
-            return jsonify({"id": id}), 200
+            token = gerar_token(id)
+            return jsonify({"id": id, "token": token}), 200
         else:
             return jsonify({"error": "Acesso negado. Dados inválidos."}), 401
     except Exception as e:
@@ -91,14 +94,19 @@ def login():
 @app.route('/lista', methods=['GET'])
 def get_lista():
     try:
-        id = request.json['id']
-        listaporid_ref = lista_ref.document(id)
-        dados = listaporid_ref.get().to_dict()
-        if dados:
-            logger.info(f'Lista retornada com sucesso')
-            return jsonify({"lista": dados}), 200
+        authorization_header = request.headers.get('Authorization')
+        token = validar_token(authorization_header)
+        if token:
+            id = request.json['id']
+            listaporid_ref = lista_ref.document(id)
+            dados = listaporid_ref.get().to_dict()
+            if dados:
+                logger.info(f'Lista retornada com sucesso')
+                return jsonify({"lista": dados}), 200
+            else:
+                return jsonify({"error": "Lista indisponível"}), 401
         else:
-            return jsonify({"error": "Lista indisponível"}), 401
+            return jsonify({"error": "Acesso negado. Token inválido ou expirado."}), 401
     except Exception as e:
         logger.error(f"An Error Occurred: {e}")
         return f"An Error Occurred: {e}", 500
@@ -106,18 +114,23 @@ def get_lista():
 @app.route('/listas_por_creator', methods=['GET'])
 def get_listas_por_creator():
     try:
-        id_creator = request.json['id_creator']
-        todas_listas = lista_ref.stream()
-        listas_por_creator = []
-        for lista in todas_listas:
-            dados = lista.to_dict()
-            if 'id_creator' in dados and dados['id_creator'] == id_creator:
-                listas_por_creator.append({"id": dados['id'], "nome": dados['nome']})
-        if listas_por_creator:
-            logger.info(f'Listas retornadas com sucesso para o ID creator {id_creator}')
-            return jsonify({"listas": listas_por_creator}), 200
+        authorization_header = request.headers.get('Authorization')
+        token = validar_token(authorization_header)
+        if token:
+            id_creator = request.json['id_creator']
+            todas_listas = lista_ref.stream()
+            listas_por_creator = []
+            for lista in todas_listas:
+                dados = lista.to_dict()
+                if 'id_creator' in dados and dados['id_creator'] == id_creator:
+                    listas_por_creator.append({"id": dados['id'], "nome": dados['nome']})
+            if listas_por_creator:
+                logger.info(f'Listas retornadas com sucesso para o ID creator {id_creator}')
+                return jsonify({"listas": listas_por_creator}), 200
+            else:
+                return jsonify({"error": f"Nenhuma lista disponível para o ID creator {id_creator}"}), 401
         else:
-            return jsonify({"error": f"Nenhuma lista disponível para o ID creator {id_creator}"}), 401
+            return jsonify({"error": "Acesso negado. Token inválido ou expirado."}), 401
     except Exception as e:
         logger.error(f"An Error Occurred: {e}")
         return f"An Error Occurred: {e}", 500
@@ -125,12 +138,17 @@ def get_listas_por_creator():
 @app.route('/lista', methods=['POST'])
 def create_lista():
     try:
-        id = str(uuid.uuid4())
-        request_completa = request.json
-        request_completa["id"] = id
-        lista_ref.document(str(id)).set(request_completa)
-        logger.info(f'Lista criada com id={id}')
-        return jsonify({"success": True}), 200
+        authorization_header = request.headers.get('Authorization')
+        token = validar_token(authorization_header)
+        if token:
+            id = str(uuid.uuid4())
+            request_completa = request.json
+            request_completa["id"] = id
+            lista_ref.document(str(id)).set(request_completa)
+            logger.info(f'Lista criada com id={id}')
+            return jsonify({"success": True}), 200
+        else:
+            return jsonify({"error": "Acesso negado. Token inválido ou expirado."}), 401
     except Exception as e:
         logger.error(f"An Error Occurred: {e}")
         return f"An Error Occurred: {e}", 500
@@ -149,9 +167,14 @@ def delete_lista():
 @app.route('/produto', methods=['GET'])
 def get_produtos():
     try:
-        all_id = [doc.to_dict() for doc in produto_ref.stream()]
-        logger.warning('all firebase data returned')
-        return jsonify(all_id), 200
+        authorization_header = request.headers.get('Authorization')
+        token = validar_token(authorization_header)
+        if token:
+            all_id = [doc.to_dict() for doc in produto_ref.stream()]
+            logger.warning('all firebase data returned')
+            return jsonify(all_id), 200
+        else:
+            return jsonify({"error": "Acesso negado. Token inválido ou expirado."}), 401
     except Exception as e:
         logger.error(f"An Error Occurred: {e}")
         return f"An Error Occurred: {e}", 500
@@ -159,12 +182,17 @@ def get_produtos():
 @app.route('/produto', methods=['POST'])
 def create_produto():
     try:
-        id = str(uuid.uuid4())
-        request_completa = request.json
-        request_completa["id"] = id
-        produto_ref.document(str(id)).set(request_completa)
-        logger.info(f'Produto criado com id={id}')
-        return jsonify({"success": True}), 200
+        authorization_header = request.headers.get('Authorization')
+        token = validar_token(authorization_header)
+        if token:
+            id = str(uuid.uuid4())
+            request_completa = request.json
+            request_completa["id"] = id
+            produto_ref.document(str(id)).set(request_completa)
+            logger.info(f'Produto criado com id={id}')
+            return jsonify({"success": True}), 200
+        else:
+            return jsonify({"error": "Acesso negado. Token inválido ou expirado."}), 401
     except Exception as e:
         logger.error(f"An Error Occurred: {e}")
         return f"An Error Occurred: {e}", 500
@@ -172,10 +200,15 @@ def create_produto():
 @app.route('/produto', methods=['DELETE'])
 def delete_produto():
     try:
-        id = request.json['id']
-        lista_ref.document(id).delete()
-        logger.info(f'Produto com id={id} deletado')
-        return jsonify({"success": True}), 200
+        authorization_header = request.headers.get('Authorization')
+        token = validar_token(authorization_header)
+        if token:
+            id = request.json['id']
+            lista_ref.document(id).delete()
+            logger.info(f'Produto com id={id} deletado')
+            return jsonify({"success": True}), 200
+        else:
+            return jsonify({"error": "Acesso negado. Token inválido ou expirado."}), 401
     except Exception as e:
         logger.error(f"An Error Occurred: {e}")
         return f"An Error Occurred: {e}", 500
@@ -183,9 +216,14 @@ def delete_produto():
 @app.route('/promocoes', methods=['GET'])
 def get_promocoes():
     try:
-        all_id = [doc.to_dict() for doc in promocao_ref.stream()]
-        logger.warning('all firebase data returned')
-        return jsonify(all_id), 200
+        authorization_header = request.headers.get('Authorization')
+        token = validar_token(authorization_header)
+        if token:
+            all_id = [doc.to_dict() for doc in promocao_ref.stream()]
+            logger.warning('all firebase data returned')
+            return jsonify(all_id), 200
+        else:
+            return jsonify({"error": "Acesso negado. Token inválido ou expirado."}), 401
     except Exception as e:
         logger.error(f"An Error Occurred: {e}")
         return f"An Error Occurred: {e}", 500
@@ -193,9 +231,14 @@ def get_promocoes():
 @app.route('/dicas', methods=['GET'])
 def get_dicas():
     try:
-        all_id = [doc.to_dict() for doc in dica_ref.stream()]
-        logger.warning('all firebase data returned')
-        return jsonify(all_id), 200
+        authorization_header = request.headers.get('Authorization')
+        token = validar_token(authorization_header)
+        if token:
+            all_id = [doc.to_dict() for doc in dica_ref.stream()]
+            logger.warning('all firebase data returned')
+            return jsonify(all_id), 200
+        else:
+            return jsonify({"error": "Acesso negado. Token inválido ou expirado."}), 401
     except Exception as e:
         logger.error(f"An Error Occurred: {e}")
         return f"An Error Occurred: {e}", 500

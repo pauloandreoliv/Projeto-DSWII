@@ -2295,3 +2295,204 @@
 2023-12-08 01:15:43,527 - INFO - SUCESSO no envio de recuperação de senha por e-mail: pauloandreolivs@gmail.com 
 2023-12-08 01:15:43,533 - INFO - 127.0.0.1 - - [08/Dec/2023 01:15:43] "POST /recuperarsenha HTTP/1.1" 200 -
 2023-12-08 01:16:35,211 - INFO - 127.0.0.1 - - [08/Dec/2023 01:16:35] "GET / HTTP/1.1" 200 -
+2023-12-13 17:49:53,673 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 17:49:53,698 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-13 17:49:53,706 - INFO -  * Restarting with stat
+2023-12-13 17:49:54,561 - WARNING -  * Debugger is active!
+2023-12-13 17:49:54,584 - INFO -  * Debugger PIN: 125-844-480
+2023-12-13 17:49:57,941 - INFO - 127.0.0.1 - - [13/Dec/2023 17:49:57] "GET / HTTP/1.1" 200 -
+2023-12-13 17:49:59,623 - INFO - 127.0.0.1 - - [13/Dec/2023 17:49:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-13 17:50:03,973 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 17:51:20,841 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\api\\app.py', reloading
+2023-12-13 17:51:20,970 - INFO -  * Restarting with stat
+2023-12-13 17:51:21,877 - WARNING -  * Debugger is active!
+2023-12-13 17:51:21,895 - INFO -  * Debugger PIN: 125-844-480
+2023-12-13 17:51:21,983 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 17:51:36,632 - DEBUG - https://api-dswii.onrender.com:443 "GET /login HTTP/1.1" 200 48
+2023-12-13 17:51:36,632 - INFO - Sessão de usuário {'id': '222.222.222-22'} iniciada
+2023-12-13 17:51:36,637 - INFO - 127.0.0.1 - - [13/Dec/2023 17:51:36] "POST /login HTTP/1.1" 200 -
+2023-12-13 17:52:19,737 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\api\\app.py', reloading
+2023-12-13 17:52:19,855 - INFO -  * Restarting with stat
+2023-12-13 17:52:20,741 - WARNING -  * Debugger is active!
+2023-12-13 17:52:20,758 - INFO -  * Debugger PIN: 125-844-480
+2023-12-13 17:54:18,414 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\api\\app.py', reloading
+2023-12-13 17:54:18,570 - INFO -  * Restarting with stat
+2023-12-13 17:54:19,501 - WARNING -  * Debugger is active!
+2023-12-13 17:54:19,508 - INFO -  * Debugger PIN: 125-844-480
+2023-12-13 17:54:29,562 - INFO - 127.0.0.1 - - [13/Dec/2023 17:54:29] "GET /principal HTTP/1.1" 200 -
+2023-12-13 17:54:36,064 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 17:54:37,265 - DEBUG - https://api-dswii.onrender.com:443 "GET /produto HTTP/1.1" 200 206
+2023-12-13 17:54:37,299 - INFO - 127.0.0.1 - - [13/Dec/2023 17:54:37] "GET /verprodutos HTTP/1.1" 200 -
+2023-12-13 17:54:42,603 - INFO - 127.0.0.1 - - [13/Dec/2023 17:54:42] "GET /principal HTTP/1.1" 200 -
+2023-12-13 17:54:46,554 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 17:54:47,609 - DEBUG - https://api-dswii.onrender.com:443 "GET /produto HTTP/1.1" 200 206
+2023-12-13 17:54:47,645 - INFO - 127.0.0.1 - - [13/Dec/2023 17:54:47] "GET /criarlista HTTP/1.1" 200 -
+2023-12-13 17:54:53,677 - INFO - Campo Novo não encontrado nos dados do formulário.
+2023-12-13 17:54:53,677 - INFO - Campo Arroz não encontrado nos dados do formulário.
+2023-12-13 17:54:53,677 - INFO - Campo Novo não encontrado nos dados do formulário.
+2023-12-13 17:54:53,677 - INFO - Campo Açúcar não encontrado nos dados do formulário.
+2023-12-13 17:54:53,685 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 17:54:55,801 - DEBUG - https://api-dswii.onrender.com:443 "POST /lista HTTP/1.1" 200 46
+2023-12-13 17:54:55,802 - INFO - Cadastro de lista realizado com sucesso
+2023-12-13 17:54:55,807 - INFO - 127.0.0.1 - - [13/Dec/2023 17:54:55] "POST /cadastrarlista HTTP/1.1" 200 -
+2023-12-13 17:54:59,576 - INFO - 127.0.0.1 - - [13/Dec/2023 17:54:59] "GET /principal HTTP/1.1" 200 -
+2023-12-13 17:55:00,673 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 17:55:01,534 - DEBUG - https://api-dswii.onrender.com:443 "GET /listas_por_creator HTTP/1.1" 200 118
+2023-12-13 17:55:01,545 - INFO - 127.0.0.1 - - [13/Dec/2023 17:55:01] "GET /minhaslistas HTTP/1.1" 200 -
+2023-12-13 17:55:02,491 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 17:55:03,175 - DEBUG - https://api-dswii.onrender.com:443 "GET /lista HTTP/1.1" 200 134
+2023-12-13 17:55:03,194 - INFO - 127.0.0.1 - - [13/Dec/2023 17:55:03] "GET /verlista?id=b7301110-f8d0-48e7-839d-0ef7d96b0252 HTTP/1.1" 200 -
+2023-12-13 17:55:05,009 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 17:55:05,938 - DEBUG - https://api-dswii.onrender.com:443 "DELETE /lista HTTP/1.1" 200 46
+2023-12-13 17:55:05,939 - INFO - Lista apagada com sucesso: b7301110-f8d0-48e7-839d-0ef7d96b0252
+2023-12-13 17:55:05,943 - INFO - 127.0.0.1 - - [13/Dec/2023 17:55:05] "POST /deletarlista HTTP/1.1" 200 -
+2023-12-13 17:55:07,706 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 17:55:08,806 - DEBUG - https://api-dswii.onrender.com:443 "GET /listas_por_creator HTTP/1.1" 401 99
+2023-12-13 17:55:08,814 - INFO - 127.0.0.1 - - [13/Dec/2023 17:55:08] "GET /minhaslistas HTTP/1.1" 200 -
+2023-12-13 17:55:10,150 - INFO - 127.0.0.1 - - [13/Dec/2023 17:55:10] "GET /principal HTTP/1.1" 200 -
+2023-12-13 17:55:12,781 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 17:55:13,423 - DEBUG - https://api-dswii.onrender.com:443 "GET /listas_por_creator HTTP/1.1" 401 99
+2023-12-13 17:55:13,429 - INFO - 127.0.0.1 - - [13/Dec/2023 17:55:13] "GET /minhaslistas HTTP/1.1" 200 -
+2023-12-13 17:55:14,339 - INFO - 127.0.0.1 - - [13/Dec/2023 17:55:14] "GET /principal HTTP/1.1" 200 -
+2023-12-13 18:02:01,293 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\app.py', reloading
+2023-12-13 18:02:01,463 - INFO -  * Restarting with stat
+2023-12-13 18:02:02,394 - WARNING -  * Debugger is active!
+2023-12-13 18:02:02,410 - INFO -  * Debugger PIN: 125-844-480
+2023-12-13 18:10:53,714 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-13 18:10:53,714 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-13 18:10:53,722 - INFO -  * Restarting with stat
+2023-12-13 18:10:54,605 - WARNING -  * Debugger is active!
+2023-12-13 18:10:54,622 - INFO -  * Debugger PIN: 125-844-480
+2023-12-13 18:11:00,631 - INFO - 127.0.0.1 - - [13/Dec/2023 18:11:00] "GET / HTTP/1.1" 200 -
+2023-12-13 18:11:08,042 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 18:11:08,874 - DEBUG - https://api-dswii.onrender.com:443 "GET /login HTTP/1.1" 401 78
+2023-12-13 18:11:08,877 - INFO - Sessão de usuário não permitida
+2023-12-13 18:11:08,881 - INFO - 127.0.0.1 - - [13/Dec/2023 18:11:08] "POST /login HTTP/1.1" 200 -
+2023-12-13 18:11:11,896 - INFO - 127.0.0.1 - - [13/Dec/2023 18:11:11] "GET / HTTP/1.1" 200 -
+2023-12-13 18:11:18,480 - INFO - 127.0.0.1 - - [13/Dec/2023 18:11:18] "GET /principal HTTP/1.1" 200 -
+2023-12-13 18:11:21,657 - INFO - 127.0.0.1 - - [13/Dec/2023 18:11:21] "GET / HTTP/1.1" 200 -
+2023-12-13 18:11:28,724 - INFO - 127.0.0.1 - - [13/Dec/2023 18:11:28] "GET /minhaslistas HTTP/1.1" 200 -
+2023-12-13 18:11:30,038 - INFO - 127.0.0.1 - - [13/Dec/2023 18:11:30] "GET / HTTP/1.1" 200 -
+2023-12-13 18:11:43,166 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 18:11:43,769 - DEBUG - https://api-dswii.onrender.com:443 "GET /login HTTP/1.1" 200 186
+2023-12-13 18:11:43,770 - INFO - Sessão de usuário {'id': '222.222.222-22', 'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIyMi4yMjIuMjIyLTIyIiwiZXhwIjoxNzAyNTAyMjEyfQ.CDvcxXl1LKSiQ-d07UJ7KT4Zxt45R3GZYKPvD88n4II'} iniciada
+2023-12-13 18:11:43,774 - INFO - 127.0.0.1 - - [13/Dec/2023 18:11:43] "POST /login HTTP/1.1" 200 -
+2023-12-13 18:11:45,736 - INFO - 127.0.0.1 - - [13/Dec/2023 18:11:45] "GET /principal HTTP/1.1" 200 -
+2023-12-13 18:12:37,149 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 18:12:37,619 - DEBUG - https://api-dswii.onrender.com:443 "GET /listas_por_creator HTTP/1.1" 401 99
+2023-12-13 18:12:37,635 - INFO - 127.0.0.1 - - [13/Dec/2023 18:12:37] "GET /minhaslistas HTTP/1.1" 200 -
+2023-12-13 18:12:38,587 - INFO - 127.0.0.1 - - [13/Dec/2023 18:12:38] "GET /principal HTTP/1.1" 200 -
+2023-12-13 18:12:40,820 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 18:12:41,318 - DEBUG - https://api-dswii.onrender.com:443 "GET /produto HTTP/1.1" 200 206
+2023-12-13 18:12:41,331 - INFO - 127.0.0.1 - - [13/Dec/2023 18:12:41] "GET /criarlista HTTP/1.1" 200 -
+2023-12-13 18:12:55,677 - INFO - Campo Novo não encontrado nos dados do formulário.
+2023-12-13 18:12:55,677 - INFO - Campo Açúcar não encontrado nos dados do formulário.
+2023-12-13 18:12:55,679 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 18:12:56,270 - DEBUG - https://api-dswii.onrender.com:443 "POST /lista HTTP/1.1" 200 46
+2023-12-13 18:12:56,271 - INFO - Cadastro de lista realizado com sucesso
+2023-12-13 18:12:56,275 - INFO - 127.0.0.1 - - [13/Dec/2023 18:12:56] "POST /cadastrarlista HTTP/1.1" 200 -
+2023-12-13 18:12:58,342 - INFO - 127.0.0.1 - - [13/Dec/2023 18:12:58] "GET /principal HTTP/1.1" 200 -
+2023-12-13 18:13:00,002 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 18:13:00,468 - DEBUG - https://api-dswii.onrender.com:443 "GET /listas_por_creator HTTP/1.1" 200 118
+2023-12-13 18:13:00,473 - INFO - 127.0.0.1 - - [13/Dec/2023 18:13:00] "GET /minhaslistas HTTP/1.1" 200 -
+2023-12-13 18:13:01,118 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 18:13:01,696 - DEBUG - https://api-dswii.onrender.com:443 "GET /lista HTTP/1.1" 200 166
+2023-12-13 18:13:01,709 - INFO - 127.0.0.1 - - [13/Dec/2023 18:13:01] "GET /verlista?id=b58bbfbf-ba21-4188-9fb6-25b9c5b52e1f HTTP/1.1" 200 -
+2023-12-13 18:13:04,563 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 18:13:05,076 - DEBUG - https://api-dswii.onrender.com:443 "DELETE /lista HTTP/1.1" 200 46
+2023-12-13 18:13:05,076 - INFO - Lista apagada com sucesso: b58bbfbf-ba21-4188-9fb6-25b9c5b52e1f
+2023-12-13 18:13:05,076 - INFO - 127.0.0.1 - - [13/Dec/2023 18:13:05] "POST /deletarlista HTTP/1.1" 200 -
+2023-12-13 18:13:06,339 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 18:13:08,046 - DEBUG - https://api-dswii.onrender.com:443 "GET /listas_por_creator HTTP/1.1" 401 99
+2023-12-13 18:13:08,052 - INFO - 127.0.0.1 - - [13/Dec/2023 18:13:08] "GET /minhaslistas HTTP/1.1" 200 -
+2023-12-13 18:13:09,144 - INFO - 127.0.0.1 - - [13/Dec/2023 18:13:09] "GET /principal HTTP/1.1" 200 -
+2023-12-13 18:13:10,698 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 18:13:11,325 - DEBUG - https://api-dswii.onrender.com:443 "GET /produto HTTP/1.1" 200 206
+2023-12-13 18:13:11,335 - INFO - 127.0.0.1 - - [13/Dec/2023 18:13:11] "GET /verprodutos HTTP/1.1" 200 -
+2023-12-13 18:13:12,548 - INFO - 127.0.0.1 - - [13/Dec/2023 18:13:12] "GET /principal HTTP/1.1" 200 -
+2023-12-13 18:13:13,820 - INFO - 127.0.0.1 - - [13/Dec/2023 18:13:13] "GET /criarproduto HTTP/1.1" 200 -
+2023-12-13 18:13:24,691 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 18:13:25,657 - DEBUG - https://api-dswii.onrender.com:443 "POST /produto HTTP/1.1" 200 46
+2023-12-13 18:13:25,657 - INFO - Cadastro realizado com sucesso: <built-in function id>
+2023-12-13 18:13:25,662 - INFO - 127.0.0.1 - - [13/Dec/2023 18:13:25] "POST /cadastrarproduto HTTP/1.1" 200 -
+2023-12-13 18:13:27,771 - INFO - 127.0.0.1 - - [13/Dec/2023 18:13:27] "GET /principal HTTP/1.1" 200 -
+2023-12-13 18:13:35,123 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 18:13:36,004 - DEBUG - https://api-dswii.onrender.com:443 "GET /listas_por_creator HTTP/1.1" 401 99
+2023-12-13 18:13:36,008 - INFO - 127.0.0.1 - - [13/Dec/2023 18:13:36] "GET /minhaslistas HTTP/1.1" 200 -
+2023-12-13 18:13:37,505 - INFO - 127.0.0.1 - - [13/Dec/2023 18:13:37] "GET /principal HTTP/1.1" 200 -
+2023-12-13 18:13:38,533 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 18:13:39,073 - DEBUG - https://api-dswii.onrender.com:443 "GET /produto HTTP/1.1" 200 239
+2023-12-13 18:13:39,079 - INFO - 127.0.0.1 - - [13/Dec/2023 18:13:39] "GET /verprodutos HTTP/1.1" 200 -
+2023-12-13 18:13:42,701 - INFO - 127.0.0.1 - - [13/Dec/2023 18:13:42] "GET /principal HTTP/1.1" 200 -
+2023-12-13 18:13:45,856 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 18:13:46,450 - DEBUG - https://api-dswii.onrender.com:443 "GET /dicas HTTP/1.1" 200 81
+2023-12-13 18:13:46,478 - INFO - 127.0.0.1 - - [13/Dec/2023 18:13:46] "GET /verdicas HTTP/1.1" 200 -
+2023-12-13 18:13:47,903 - INFO - 127.0.0.1 - - [13/Dec/2023 18:13:47] "GET /principal HTTP/1.1" 200 -
+2023-12-13 18:13:50,666 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 18:13:51,261 - DEBUG - https://api-dswii.onrender.com:443 "GET /promocoes HTTP/1.1" 200 92
+2023-12-13 18:13:51,294 - INFO - 127.0.0.1 - - [13/Dec/2023 18:13:51] "GET /verpromocoes HTTP/1.1" 200 -
+2023-12-13 18:13:52,281 - INFO - 127.0.0.1 - - [13/Dec/2023 18:13:52] "GET /principal HTTP/1.1" 200 -
+2023-12-13 18:13:54,546 - INFO - 127.0.0.1 - - [13/Dec/2023 18:13:54] "GET /obtersuporte HTTP/1.1" 200 -
+2023-12-13 18:14:07,954 - INFO - SUCESSO no envio de suporte por e-mail: pauloandreolivs@gmail.com 
+2023-12-13 18:14:07,954 - INFO - 127.0.0.1 - - [13/Dec/2023 18:14:07] "POST /obtersuporte HTTP/1.1" 200 -
+2023-12-13 18:14:13,192 - INFO - 127.0.0.1 - - [13/Dec/2023 18:14:13] "GET /principal HTTP/1.1" 200 -
+2023-12-13 18:14:19,567 - INFO - 127.0.0.1 - - [13/Dec/2023 18:14:19] "GET /logout HTTP/1.1" 200 -
+2023-12-13 18:14:21,029 - INFO - 127.0.0.1 - - [13/Dec/2023 18:14:21] "GET / HTTP/1.1" 200 -
+2023-12-13 18:14:24,260 - INFO - 127.0.0.1 - - [13/Dec/2023 18:14:24] "GET /esqueceu HTTP/1.1" 200 -
+2023-12-13 18:14:34,219 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 18:14:35,193 - DEBUG - https://api-dswii.onrender.com:443 "PUT /user HTTP/1.1" 200 78
+2023-12-13 18:14:35,193 - INFO - Email de recuparação enviado para pauloandreolivs@gmail.com
+2023-12-13 18:14:38,262 - INFO - SUCESSO no envio de recuperação de senha por e-mail: pauloandreolivs@gmail.com 
+2023-12-13 18:14:38,266 - INFO - 127.0.0.1 - - [13/Dec/2023 18:14:38] "POST /recuperarsenha HTTP/1.1" 200 -
+2023-12-13 18:14:40,271 - INFO - 127.0.0.1 - - [13/Dec/2023 18:14:40] "GET / HTTP/1.1" 200 -
+2023-12-13 18:15:08,693 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 18:15:09,467 - DEBUG - https://api-dswii.onrender.com:443 "GET /login HTTP/1.1" 401 78
+2023-12-13 18:15:09,467 - INFO - Sessão de usuário não permitida
+2023-12-13 18:15:09,472 - INFO - 127.0.0.1 - - [13/Dec/2023 18:15:09] "POST /login HTTP/1.1" 200 -
+2023-12-13 18:15:23,230 - INFO - 127.0.0.1 - - [13/Dec/2023 18:15:23] "GET / HTTP/1.1" 200 -
+2023-12-13 18:15:28,264 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 18:15:28,955 - DEBUG - https://api-dswii.onrender.com:443 "GET /login HTTP/1.1" 200 187
+2023-12-13 18:15:28,956 - INFO - Sessão de usuário {'id': '888.888.888-88', 'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijg4OC44ODguODg4LTg4IiwiZXhwIjoxNzAyNTAyNDM3fQ.V8g1lYg0GoFPvdk8NDEu2CxkfgnsllTx0o0c_2M7iDk'} iniciada
+2023-12-13 18:15:28,959 - INFO - 127.0.0.1 - - [13/Dec/2023 18:15:28] "POST /login HTTP/1.1" 200 -
+2023-12-13 18:15:30,394 - INFO - 127.0.0.1 - - [13/Dec/2023 18:15:30] "GET /principal HTTP/1.1" 200 -
+2023-12-13 18:25:08,492 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 18:25:09,630 - DEBUG - https://api-dswii.onrender.com:443 "GET /listas_por_creator HTTP/1.1" 500 92
+2023-12-13 18:25:09,637 - INFO - 127.0.0.1 - - [13/Dec/2023 18:25:09] "GET /minhaslistas HTTP/1.1" 200 -
+2023-12-13 18:25:13,072 - INFO - 127.0.0.1 - - [13/Dec/2023 18:25:13] "GET /principal HTTP/1.1" 200 -
+2023-12-13 18:25:14,719 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 18:25:15,019 - DEBUG - https://api-dswii.onrender.com:443 "GET /produto HTTP/1.1" 500 92
+2023-12-13 18:25:15,024 - INFO - 127.0.0.1 - - [13/Dec/2023 18:25:15] "GET /criarlista HTTP/1.1" 200 -
+2023-12-13 18:25:37,374 - INFO - 127.0.0.1 - - [13/Dec/2023 18:25:37] "[35m[1mPOST /cadastrarlista HTTP/1.1[0m" 500 -
+2023-12-13 18:25:37,656 - INFO - 127.0.0.1 - - [13/Dec/2023 18:25:37] "[36mGET /cadastrarlista?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-12-13 18:25:37,660 - INFO - 127.0.0.1 - - [13/Dec/2023 18:25:37] "[36mGET /cadastrarlista?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-12-13 18:25:37,720 - INFO - 127.0.0.1 - - [13/Dec/2023 18:25:37] "[36mGET /cadastrarlista?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-13 18:25:37,745 - INFO - 127.0.0.1 - - [13/Dec/2023 18:25:37] "[36mGET /cadastrarlista?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-13 18:36:16,209 - INFO -  * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\app.py', reloading
+2023-12-13 18:36:16,391 - INFO -  * Restarting with stat
+2023-12-13 18:36:17,784 - WARNING -  * Debugger is active!
+2023-12-13 18:36:17,803 - INFO -  * Debugger PIN: 125-844-480
+2023-12-13 18:36:19,200 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 18:36:20,338 - DEBUG - https://api-dswii.onrender.com:443 "GET /produto HTTP/1.1" 500 92
+2023-12-13 18:36:20,342 - INFO - 127.0.0.1 - - [13/Dec/2023 18:36:20] "GET /criarlista HTTP/1.1" 200 -
+2023-12-13 18:36:23,125 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 18:36:24,539 - DEBUG - https://api-dswii.onrender.com:443 "GET /produto HTTP/1.1" 500 92
+2023-12-13 18:36:24,542 - INFO - 127.0.0.1 - - [13/Dec/2023 18:36:24] "GET /criarlista HTTP/1.1" 200 -
+2023-12-13 18:36:27,928 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 18:36:28,941 - DEBUG - https://api-dswii.onrender.com:443 "GET /produto HTTP/1.1" 500 92
+2023-12-13 18:36:28,944 - INFO - 127.0.0.1 - - [13/Dec/2023 18:36:28] "GET /criarlista HTTP/1.1" 200 -
+2023-12-13 18:36:32,502 - INFO - 127.0.0.1 - - [13/Dec/2023 18:36:32] "GET / HTTP/1.1" 200 -
+2023-12-13 18:36:37,859 - INFO - 127.0.0.1 - - [13/Dec/2023 18:36:37] "GET /principal HTTP/1.1" 200 -
+2023-12-13 18:36:41,921 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 18:36:42,763 - DEBUG - https://api-dswii.onrender.com:443 "GET /listas_por_creator HTTP/1.1" 500 92
+2023-12-13 18:36:42,771 - INFO - 127.0.0.1 - - [13/Dec/2023 18:36:42] "GET /minhaslistas HTTP/1.1" 200 -
+2023-12-13 18:36:45,983 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 18:36:47,783 - DEBUG - https://api-dswii.onrender.com:443 "GET /produto HTTP/1.1" 500 92
+2023-12-13 18:36:47,787 - INFO - 127.0.0.1 - - [13/Dec/2023 18:36:47] "GET /criarlista HTTP/1.1" 200 -
+2023-12-13 18:36:50,838 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 18:36:51,878 - DEBUG - https://api-dswii.onrender.com:443 "GET /produto HTTP/1.1" 500 92
+2023-12-13 18:36:51,881 - INFO - 127.0.0.1 - - [13/Dec/2023 18:36:51] "GET /verprodutos HTTP/1.1" 200 -
+2023-12-13 18:36:53,989 - DEBUG - Starting new HTTPS connection (1): api-dswii.onrender.com:443
+2023-12-13 18:36:56,900 - DEBUG - https://api-dswii.onrender.com:443 "GET /dicas HTTP/1.1" 500 92
+2023-12-13 18:36:56,904 - INFO - 127.0.0.1 - - [13/Dec/2023 18:36:56] "GET /verdicas HTTP/1.1" 200 -

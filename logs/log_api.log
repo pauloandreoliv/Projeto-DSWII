@@ -343,3 +343,21 @@ WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 125-844-480
 INFO:werkzeug:127.0.0.1 - - [08/Dec/2023 00:09:45] "GET /listas_por_creator HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [08/Dec/2023 00:10:43] "[33mGET /principal HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 125-844-480
+ERROR:root:An Error Occurred: 400 Bad Request: Failed to decode JSON object: Expecting ',' delimiter: line 3 column 5 (char 35)
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2023 17:43:58] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2023 17:44:06] "[31m[1mGET /login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2023 17:44:24] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\api\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 125-844-480
+INFO:werkzeug: * Detected change in 'c:\\Users\\paulo\\OneDrive\\Outros\\Documentos\\GitHub\\Projeto-DSWII\\api\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 125-844-480
