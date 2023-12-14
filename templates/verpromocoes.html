@@ -20,15 +20,15 @@
                 <table>
                     <thead>
                         <tr>
-                            <th>Produto</th>
-                            <th>Preço</th>
+                            <th>Promoção</th>
+                            <th>Validade</th>
                         </tr>
                     </thead>
                     <tbody>
                         {%for item in itens%}
                         <tr>
                             <td>{{item["nome"]}}</td>
-                            <td>R${{item["preco"]}}</td>
+                            <td>{{item["preco"]}}</td>
                         </tr>
                         {%endfor%}
                     </tbody>
