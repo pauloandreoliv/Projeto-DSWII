@@ -4,6 +4,7 @@ O aplicativo "Minha Feira" visa proporcionar uma experiência de compra mais efi
 
 ## 🚀 Começando
 ### Front-End 
+![image](https://github.com/pauloandreoliv/Projeto-DSWII/assets/81064629/68f631d4-691b-4432-af09-f3047054e3d7)
 
 
 
