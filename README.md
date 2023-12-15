@@ -6,6 +6,19 @@ O aplicativo "Minha Feira" visa proporcionar uma experiência de compra mais efi
 
 
 ## 🛠️Funcionalidades 
+- Registro de Usuários
+- Autenticação de Usuários
+- Recuperação de Senha
+- Acessar opções na tela Principal
+- Criação de Listas de Compras
+- Exclusão de Listas de Compras
+- Visualização de Listas de Compras
+- Adição de Itens à Lista
+- Visualizar dicas
+- Visualizar promoções da semana
+- Obter suporte
+- Cadastro de produtos
+- Visualização de produto
 
 ## 💻 Tecnologias
 - Python 3.11.0: Linguagem de programação utilizada para o desenvolvimento do backend.
