@@ -47,6 +47,11 @@ TELA DE MINHAS LISTAS
 ![image](https://github.com/pauloandreoliv/Projeto-DSWII/assets/81064629/5d3aecbf-a504-4065-a16b-05d4e0e42809)
 
 
+
+
+## Arquitetura do Nosso Projeto
+
+
 ## 💻 Tecnologias
 - Python 3.11.0: Linguagem de programação utilizada para o desenvolvimento do backend.
 - Flask: Microframework web em Python utilizado para construir a aplicação e a API.
