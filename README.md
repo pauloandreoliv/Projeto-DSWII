@@ -9,7 +9,15 @@ Com isso, o Minha Feira consistirá em 3 componentes principais: o front-end, pr
 
 #### Back-end
 
+A API Foi construída usando o framework Flask em Python. Ela permite a comunicação entre o sistemas, permitindo que eles troquem informações de maneira eficiente e estruturada por meio de endpoints específicos.
+Principais rotas: 
+- GET
+- POST
+- PUT
+- DELETE
 
+A Converção dos dados de é  para o formato JSON para que possam ser facilmente enviados e recebidos pela API.
+A API interage com um banco de dados para armazenar, buscar, modificar ou excluir informações.
 
 #### Front-End 
 
