@@ -8,12 +8,15 @@ O aplicativo "Minha Feira" visa proporcionar uma experiência de compra mais efi
 As principais telas do nosso Front-end: 
 
 TELA DE CADASTRO 
+
 ![image](https://github.com/pauloandreoliv/Projeto-DSWII/assets/81064629/68f631d4-691b-4432-af09-f3047054e3d7)
 
 TELA PRINCIPAL 
+
 ![image](https://github.com/pauloandreoliv/Projeto-DSWII/assets/81064629/b0697ec2-d855-4340-b7f2-a71fd92e9e48)
 
 TELA DE MINHAS LISTAS
+
 ![image](https://github.com/pauloandreoliv/Projeto-DSWII/assets/81064629/04720406-c478-40df-996c-c7a41154ddc9)
 
 
