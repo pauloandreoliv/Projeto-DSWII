@@ -20,6 +20,7 @@ A Converção dos dados de é  para o formato JSON para que possam ser facilment
 A API interage com um banco de dados para armazenar, buscar, modificar ou excluir informações.
 
 #### Front-End 
+O desemvolvimento foi feito HTML, CSS, JavaScript
 
 As principais telas do nosso Front-end: 
 
