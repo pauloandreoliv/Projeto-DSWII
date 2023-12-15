@@ -3,7 +3,7 @@ No mundo moderno, onde o tempo é um recurso cada vez mais valioso, as compras d
 O aplicativo "Minha Feira" visa proporcionar uma experiência de compra mais eficiente, prática e econômica para os usuários, economizando seu tempo valioso e contribuindo para a gestão financeira inteligente.
 
 ## 🚀 Começando
-## Arquitetura do Nosso Projeto
+### Arquitetura do Nosso Projeto
 O aplicativo Minha Feira adota a arquitetura cliente-servidor para otimizar sua estrutura. Essa escolha visa evitar complexidades desnecessárias, considerando a modelagem da aplicação.
 Com isso, o Minha Feira consistirá em 3 componentes principais: o front-end, proporcionando a interface intuitiva aos usuários, o back-end com uma API para facilitar a comunicação, e o banco de dados em si, onde serão armazenadas as informações essenciais para uma experiência de compras eficiente. Essa abordagem garante um desempenho sólido e uma manutenção mais simplificada.
 
