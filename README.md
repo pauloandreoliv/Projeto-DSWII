@@ -7,11 +7,11 @@ O aplicativo "Minha Feira" visa proporcionar uma experiência de compra mais efi
 O aplicativo Minha Feira adota a arquitetura cliente-servidor para otimizar sua estrutura. Essa escolha visa evitar complexidades desnecessárias, considerando a modelagem da aplicação.
 Com isso, o Minha Feira consistirá em 3 componentes principais: o front-end, proporcionando a interface intuitiva aos usuários, o back-end com uma API para facilitar a comunicação, e o banco de dados em si, onde serão armazenadas as informações essenciais para uma experiência de compras eficiente. Essa abordagem garante um desempenho sólido e uma manutenção mais simplificada.
 
-### Back-end
+#### Back-end
 
 
 
-### Front-End 
+#### Front-End 
 
 As principais telas do nosso Front-end: 
 
