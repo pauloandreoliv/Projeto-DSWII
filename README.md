@@ -73,3 +73,13 @@ TELA DE MINHAS LISTAS
 
 ## 📌 Versão
 Nosso projeto ainda esta na primeira versão. 
+
+## 🤝 Colaboradores
+
+Pessoas que fizeram parte do projeto
+- Alderi Araujo da Silva
+- Diana Karoline da Silva Correia
+- Gabriel Vaz Rodrigues dos Santos
+- José Augusto de Melo
+- Juliana Ribeiro de Melo Paz
+- Paulo André Oliveira da Silva
