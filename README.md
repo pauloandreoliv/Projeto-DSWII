@@ -3,6 +3,12 @@ No mundo moderno, onde o tempo é um recurso cada vez mais valioso, as compras d
 O aplicativo "Minha Feira" visa proporcionar uma experiência de compra mais eficiente, prática e econômica para os usuários, economizando seu tempo valioso e contribuindo para a gestão financeira inteligente.
 
 ## 🚀 Começando
+
+
+### Back-end
+
+
+
 ### Front-End 
 
 As principais telas do nosso Front-end: 
@@ -35,6 +41,11 @@ TELA DE MINHAS LISTAS
 - Obter suporte
 - Cadastro de produtos
 - Visualização de produto
+
+### Diagrama de casos de uso 
+
+![image](https://github.com/pauloandreoliv/Projeto-DSWII/assets/81064629/5d3aecbf-a504-4065-a16b-05d4e0e42809)
+
 
 ## 💻 Tecnologias
 - Python 3.11.0: Linguagem de programação utilizada para o desenvolvimento do backend.
